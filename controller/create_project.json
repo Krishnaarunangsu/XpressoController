@@ -1,8 +1,8 @@
 {
-	"name" : "piproject3",
-	"projectDescription" : "Test project created by xpresso platform",
+	"name" : "Piproject4",
+	"projectDescription" : "Test project created by xpresso platform from QA by Arunangsu",
 	"owner" : {
-		"uid": "naveensinha"
+		"uid": "testpipowpi2"
 	},
         "developers" : ["pipowpi"],
 	"components" : [
@@ -36,7 +36,7 @@
 		{
 			"name" : "tfx-taxi-cab-classification",
 			"components" : ["ds-job-taxi", "ds-service-taxi"],
-			"declarative_json" : "/home/xprops/taxi-pipeline.json"
+			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

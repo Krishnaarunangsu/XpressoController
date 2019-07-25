@@ -4,8 +4,8 @@
 	"owner" : {
 		"uid": "testpipowpi2"
 	},
-        "developers" : ["pipowpi"],
-	"components" : [
+	"developers" : ["pipowpi"],
+		"components" : [
 		{
 			"type" : "service",
 			"flavor" : "python",
@@ -30,13 +30,6 @@
 			"type" : "datascience-job",
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
-		}
-	],
-	"pipelines" : [
-		{
-			"name" : "tfx-taxi-cab-classification",
-			"components" : ["ds-job-taxi", "ds-service-taxi"],
-			"declarative_json" : "/home/xprops/seq-pipeline-def.json"
 		}
 	]
 }

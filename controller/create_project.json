@@ -1,0 +1,35 @@
+{
+	"name" : "piproject3",
+	"projectDescription" : "Test project created by xpresso platform",
+	"owner" : {
+		"uid": "naveensinha"
+	},
+        "developers" : ["pipowpi"],
+	"components" : [
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "service-reader"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "crawler-service"
+		},
+		{
+			"type" : "database",
+			"flavor" : "sql",
+			"name" : "database-service"
+		},
+		{
+			"type" : "datascience-service",
+			"flavor" : "python",
+			"name" : "ds-service-taxi"
+		},
+		{
+			"type" : "datascience-job",
+			"flavor" : "python",
+			"name" : "ds-job-taxi"
+		}
+	]
+}

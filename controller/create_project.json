@@ -1,35 +1,27 @@
 {
-	"name" : "piproject3",
+	"name" : "sequential_pipeline_project",
 	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
-		"uid": "user1"
+		"uid": "admin1"
 	},
-        "developers" : ["pipowpi"],
+    "developers" : ["admin1"],
 	"components" : [
 		{
-			"type" : "service",
-			"flavor" : "python",
-			"name" : "service-reader"
-		},
-		{
-			"type" : "job",
-			"flavor" : "python",
-			"name" : "crawler-service"
-		},
-		{
-			"type" : "database",
-			"flavor" : "sql",
-			"name" : "database-service"
-		},
-		{
-			"type" : "datascience-service",
-			"flavor" : "python",
-			"name" : "ds-service-taxi"
-		},
-		{
+			"name" : "download_task",
 			"type" : "datascience-job",
-			"flavor" : "python",
-			"name" : "ds-job-taxi"
+			"flavor" : "python"
+		},
+		{
+			"name" : "echo_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
+		}
+	],
+	"pipelines" : [
+		{
+			"name" : "sequential_pipeline",
+			"components" : ["download_task", "echo_task"],
+			"declarative_json" : "/opt/xpresso.ai/xpresso/ai/admin/controller/project_management/kubeflow/examples/sequential/seq-pipeline-def.json"
 		}
 	]
 }

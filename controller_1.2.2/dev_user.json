@@ -1,8 +1,8 @@
 {
     "uid": "PM_Abzooba",
     "firstName": "Test",
-    "lastName": "",
+    "lastName": "User",
     "pwd": "testuser",
-    "email": "abc.user@xprctl.com",
+    "email": "",
     "primaryRole": "PM"
 }

@@ -1,8 +1,8 @@
 {
-    "uid": "PM_Abzooba",
-    "firstName": "Test",
-    "lastName": "User",
-    "pwd": "testuser",
-    "email": "",
-    "primaryRole": "PM"
+    "uid": "ArunS",
+    "firstName": "Arunangsu",
+    "lastName": "Sahu",
+    "pwd": "test_user",
+    "email": "arunangsu.sahu@abzooba.com",
+    "primaryRole": "Dev"
 }

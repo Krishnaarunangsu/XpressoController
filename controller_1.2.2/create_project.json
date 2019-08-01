@@ -4,7 +4,7 @@
 	"owner" : {
 		"uid": "PM_Abzooba"
 	},
-    "developers" : ["admin1"],
+    "developers" : [],
 	"components" : [
 		{
 			"name" : "download_task",

@@ -3,6 +3,6 @@
     "firstName": "Test",
     "lastName": "User",
     "pwd": "testuser",
-    "email": "",
+    "email": "abc.user@abzooba.com",
     "primaryRole": "PM"
 }

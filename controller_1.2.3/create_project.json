@@ -1,0 +1,20 @@
+{
+	"name" : "Non_pipeline_project",
+	"projectDescription" : "Test project created by xpresso platform",
+	"owner" : {
+		"uid": "PM_Abzooba"
+	},
+    "developers" : ["ArunS"],
+	"components" : [
+		{
+			"name" : "download_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
+		},
+		{
+			"name" : "echo_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
+		}
+	]
+}

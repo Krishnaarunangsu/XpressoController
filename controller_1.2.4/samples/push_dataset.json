@@ -1,7 +1,7 @@
 {
     "repo_name": "abzooba_repo",
     "branch_name": "abzooba_branch",
-    "dataset_name": "age_count"
+    "dataset_name": "age_count",
     "description": "abzooba push",
     "path": "samples/"
 }

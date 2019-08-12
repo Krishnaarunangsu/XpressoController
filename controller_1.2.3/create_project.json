@@ -8,7 +8,7 @@
 	"components" : [
 		{
 			"name" : "download_task",
-			"type" : "web-job",
+			"type" : "job",
 			"flavor" : "python"
 		},
 		{

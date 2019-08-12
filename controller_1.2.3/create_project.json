@@ -13,7 +13,7 @@
 		},
 		{
 			"name" : "echo_task",
-			"type" : "database-job",
+			"type" : "database",
 			"flavor" : "sql"
 		}
 	]

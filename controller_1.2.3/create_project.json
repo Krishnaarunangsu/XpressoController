@@ -9,13 +9,13 @@
 	"components" : [
 		{
 			"name" : "download_task",
-			"type" : "datascience-job",
+			"type" : "job",
 			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",
-			"type" : "datascience-job",
-			"flavor" : "python"
+			"type" : "database",
+			"flavor" : "sql"
 		}
 	]
 }

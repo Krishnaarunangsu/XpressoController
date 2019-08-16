@@ -5,6 +5,7 @@
 		"uid": "ASahu2"
 	},
     "developers" : ["ArunangsuSa2"],
+	"environments": ["QA"],
 	"components" : [
 		{
 			"name" : "download_task",

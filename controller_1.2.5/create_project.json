@@ -1,0 +1,28 @@
+{
+	"name" : "sequential_pipeline_project_3",
+	"projectDescription" : "Pipeline Test project created by xpresso platform",
+	"owner" : {
+		"uid": "ASahu2"
+	},
+    "developers" : ["ArunangsuSa2"],
+	"environments" : ["QA"],
+	"components" : [
+		{
+			"name" : "download_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
+		},
+		{
+			"name" : "echo_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
+		}
+	],
+	"pipelines" : [
+		{
+			"name" : "sequential_pipeline",
+			"components" : ["download_task", "echo_task"],
+			"declarative_json" : "seq-pipeline-def.json"
+		}
+	]
+}

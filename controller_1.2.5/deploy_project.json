@@ -1,0 +1,43 @@
+{
+	"name": "project2",
+	"cluster": "qacluster",
+	"components": {
+			"project2_service":{
+					"replicas" : 2,
+					"build_version" : 1,
+					"environment" : [],
+					"ports" : [{"name" : "default", "port" : 5000}, {"name" : "app1_port_new", "port" : 5051}],
+					"persistence" : [{
+						"size" : "10Gi",
+						"mount_path": "/var/lib/mysql"
+					}],
+					"is_external": true
+			},
+			"project2_job":{
+					"replicas" : 2,
+					"build_version" : 1,
+					"environment" : [],
+					"type" : "job",
+					"cron_schedule" : "",
+					"commands" : []
+				       }
+		      },
+	"pipelines" : {
+			"test-pipeline" :
+			{
+				"components":
+				{
+					"ds-service-component" :
+					{
+						"build_version": 1
+					},
+					"ds-job-component" :
+					{
+						"build_version": 1
+					}
+
+				}
+			}
+	}
+}
+

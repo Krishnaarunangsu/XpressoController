@@ -1,20 +1,21 @@
 {
-	"name" : "non_pipeline_project",
+	"name" : "non_pipeline_project_2",
 	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
 		"uid": "ASahu2"
 	},
     "developers" : ["ArunangsuSa2"],
+	"environments" : ["QA"],
 	"components" : [
 		{
 			"name" : "download_task",
-			"type" : "datascience-job",
+			"type" : "job",
 			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",
-			"type" : "datascience-job",
-			"flavor" : "python"
+			"type" : "database",
+			"flavor" : "sql"
 		}
 	]
 }

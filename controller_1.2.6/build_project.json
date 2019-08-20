@@ -1,0 +1,9 @@
+{ 
+	"name": "testproject",
+	"components":{
+			"pythonservice": {
+					"branch": "master",
+					"description": "trial version - 1"
+		  		  }
+		     }
+}

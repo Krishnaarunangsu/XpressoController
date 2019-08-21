@@ -1,0 +1,21 @@
+{
+	"name" : "non_pipeline_project_1",
+	"projectDescription" : "Test project created by xpresso platform",
+	"owner" : {
+		"uid": "asarkar"
+	},
+    "developers" : ["Anushree"],
+	"environments" : ["QA"],
+	"components" : [
+		{
+			"name" : "download_task",
+			"type" : "job",
+			"flavor" : "python"
+		},
+		{
+			"name" : "echo_task",
+			"type" : "database",
+			"flavor" : "sql"
+		}
+	]
+}

@@ -1,8 +1,12 @@
 {
+<<<<<<< HEAD
     "uid": "reyaz19",
+=======
+    "uid": "reyazsikkim",
+>>>>>>> origin
     "firstName": "Reyaz",
     "lastName": "Ahmad",
     "pwd": "reyaz",
     "email": "reyazahmad0011@gmail.com",
-    "primaryRole": "Admin"
+    "primaryRole": "Dev"
 }

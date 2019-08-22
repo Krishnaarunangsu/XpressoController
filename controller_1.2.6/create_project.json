@@ -1,10 +1,10 @@
 {
-	"name" : "sequential_pipeline_project_4",
+	"name" : "sequential_pipeline_project_5",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
-		"uid": "reyazabzooba"
+		"uid": "reyazsikkim"
 	},
-    "developers" : ["reyazsikkim"],
+    "developers" : ["reyazabzooba"],
 	"environments" : ["QA"],
 	"components" : [
 		{

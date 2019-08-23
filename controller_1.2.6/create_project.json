@@ -1,5 +1,5 @@
 {
-	"name" : "sequential_pipeline_project_8",
+	"name" : "sequential_pipeline_project_9",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "reyazabzooba"
@@ -20,7 +20,7 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential_pipeline19",
+			"name" : "Sequential_pipeline19",
 			"components" : ["download_task", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}

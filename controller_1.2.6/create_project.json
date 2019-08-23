@@ -8,7 +8,7 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "download_task",
+			"name" : "upload_task",
 			"type" : "datascience-job",
 			"flavor" : "python"
 		},

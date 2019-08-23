@@ -5,7 +5,7 @@
 		"uid": "asarkar"
 	},
     "developers" : ["asarkar"],
-	"environments" : ["QA"],
+	"environments" : ["QA","INT","DEV"],
 	"components" : [
 		{
 			"name" : "download_task",

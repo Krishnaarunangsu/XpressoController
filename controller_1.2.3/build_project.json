@@ -1,7 +1,7 @@
 { 
 	"name": "non_pipeline_project_2",
 	"components":{
-			"download_task": {
+			"echo_task": {
 					"branch": "master",
 					"description": "Test project created by xpresso platform"
 		  		  }

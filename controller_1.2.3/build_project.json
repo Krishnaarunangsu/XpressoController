@@ -1,9 +1,9 @@
 { 
-	"name": "testproject",
+	"name": "non_pipeline_project_2",
 	"components":{
-			"pythonservice": {
+			"echo_task": {
 					"branch": "master",
-					"description": "trial version - 1"
+					"description": "Test project created by xpresso platform"
 		  		  }
 		     }
 }

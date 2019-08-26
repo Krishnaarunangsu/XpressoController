@@ -1,11 +1,11 @@
 {
-	"name" : "non_pipeline_project_2",
+	"name" : "non_pipeline_project_7",
 	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
-		"uid": "ASahu2"
+		"uid": "ArunangsuSa2"
 	},
-    "developers" : ["ArunangsuSa2"],
-	"environments" : ["QA"],
+    "developers" : ["ASahu2"],
+	"environments" : ["QA", "DEV"],
 	"components" : [
 		{
 			"name" : "download_task",

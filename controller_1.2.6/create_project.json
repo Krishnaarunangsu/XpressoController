@@ -20,8 +20,8 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential_pipeline19",
-			"components" : [],
+			"name" : "sequential pipeline19",
+			"components" : ["download_task", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

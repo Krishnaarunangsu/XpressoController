@@ -21,7 +21,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["download_task", "echo_task"],
+			"components" : [],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

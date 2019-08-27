@@ -4,7 +4,7 @@
 	"owner" : {
 		"uid": "ASahu2"
 	},
-    "developers" : [],
+    "developers" : [""],
 	"environments" : ["QA"],
 	"components" : [
 		{

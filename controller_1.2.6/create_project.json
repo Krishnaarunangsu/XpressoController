@@ -10,7 +10,7 @@
 		{
 			"name" : "download_task",
 			"type" : "datascience-job",
-			"flavor" : "HTML"
+			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",

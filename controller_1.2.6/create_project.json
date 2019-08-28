@@ -8,7 +8,7 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"flavor" : "python"
+			"name" : "python-service"
 		},
 		{
 			"name" : "echo_task",

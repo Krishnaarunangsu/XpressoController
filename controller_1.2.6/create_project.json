@@ -8,7 +8,7 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "python-service",
+			"type" : "datascience-job",
 			"flavor" : "python"
 		},
 		{

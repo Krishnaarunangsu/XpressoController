@@ -10,7 +10,7 @@
 		{
 			"name" : "python-service",
 			"type" : "datascience-job",
-			"flavor" : ""
+			
 		},
 		{
 			"name" : "echo_task",

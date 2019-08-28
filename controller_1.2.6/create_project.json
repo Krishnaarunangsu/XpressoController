@@ -9,7 +9,6 @@
 	"components" : [
 		{
 			"name" : "python-service",
-			"type" : "",
 			"flavor" : "python"
 		},
 		{

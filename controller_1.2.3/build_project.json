@@ -1,5 +1,5 @@
 { 
-	"name": "non_pipeline_project_8",
+	"name": "non_pipeline_project_6",
 	"components":{
 			"download_task": {
 					"branch": "master",

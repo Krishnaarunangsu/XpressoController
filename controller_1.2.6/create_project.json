@@ -9,8 +9,8 @@
 	"components" : [
 		{
 			"name" : "python-service",
-			"type" : "datascience-job",
-			
+			"type" : "",
+			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",

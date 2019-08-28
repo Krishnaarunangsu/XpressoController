@@ -21,8 +21,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["python-service", "echo_task"],
-			"declarative_json" : ""
+			"components" : ["python-service", "echo_task"]
 		}
 	]
 }

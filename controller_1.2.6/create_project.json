@@ -8,7 +8,6 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"type" : "datascience-job",
 			"flavor" : "python"
 		},
 		{

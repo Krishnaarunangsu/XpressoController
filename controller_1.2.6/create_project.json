@@ -1,5 +1,5 @@
 {
-	"name" : "sequential_pipeline_project_13",
+	"name" : "sequential_pipeline_project_28",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "reyazabzooba"
@@ -8,8 +8,8 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "download_task",
-			"type" : "datascience-job",
+			"name" : "python-service",
+			"type" : "datqscience-job",
 			"flavor" : "python"
 		},
 		{
@@ -21,8 +21,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["download_task", "echo_task"],
-			"declarative_json" : "seq-pipeline-def.json"
+			"components" : ["python-service", "echo_task"]
 		}
 	]
 }

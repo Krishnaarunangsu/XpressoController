@@ -8,7 +8,9 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "python-service"
+			"name" : "python-service",
+			"type" : "datqscience-job",
+			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",
@@ -18,7 +20,7 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential pipeline19",
+			"name" : "",
 			"components" : ["python-service", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}

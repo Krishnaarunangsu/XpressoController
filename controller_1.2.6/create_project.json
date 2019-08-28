@@ -20,7 +20,7 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "",
+
 			"components" : ["python-service", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}

@@ -9,7 +9,7 @@
 	"components" : [
 		{
 			"name" : "python-service",
-			"type" : "datqscience-job",
+			"type" : "datascience-job",
 			"flavor" : "python"
 		},
 		{

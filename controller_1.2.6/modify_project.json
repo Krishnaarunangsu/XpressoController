@@ -3,7 +3,7 @@
 	"projectDescription" : "Pipeline Test project created by xpresso ai platform",
 	"environments" : ["QA","DEV"],
 	"owner" : {
-		"uid": "reyazsikkim"
+		"uid": ""
 	}
 
 }

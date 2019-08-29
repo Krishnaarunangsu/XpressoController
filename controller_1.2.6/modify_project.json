@@ -1,7 +1,10 @@
 {
 	"name" : "sequential_pipeline_project_3",
 	"projectDescription" : "Pipeline Test project created by xpresso ai platform",
-	"environments" : ["DEV","QA"]
+	"environments" : ["DEV","QA"],
+	"owner" : {
+		"uid": "reyazabzooba"
+	}
 
 
 }

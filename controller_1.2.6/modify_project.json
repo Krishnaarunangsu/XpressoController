@@ -14,7 +14,7 @@
 		{
 			"name" : "echo_task",
 			"type" : "datascience-job",
-			"flavor" : "python"
+			"flavor" : "java"
 		}
 	],
 	"pipelines" : [

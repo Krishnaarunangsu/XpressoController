@@ -1,6 +1,6 @@
 {
-
-	"projectDescription" : "Pipeline Test project created by xpresso ai platform",
+	"name" : "sequential_pipeline_project_3",
+	"projectDescription" : "",
 	"environments" : ["QA"]
 
 }

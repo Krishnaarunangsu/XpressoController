@@ -9,11 +9,11 @@
 		{
 			"name" : "mongo-service",
 			"type" : "datascience-job",
-			"flavor" : "java"
+			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",
-			"type" : "datascience-job",
+
 			"flavor" : "python"
 		}
 	],

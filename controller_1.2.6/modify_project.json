@@ -3,11 +3,11 @@
 	"projectDescription" : "Pipeline Test project created by xpresso ai platform",
 	"environments" : ["QA"],
 	"owner" : {
-		"uid": ""
+		"uid": "reyazabzooba"
 	},
 	"components" : [
 		{
-			"name" : "python-services",
+			"name" : "mongo-service",
 			"type" : "datascience-job",
 			"flavor" : "python"
 		},
@@ -20,7 +20,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["python-services", "echo_task"],
+			"components" : ["mongo-service", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

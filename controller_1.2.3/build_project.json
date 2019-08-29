@@ -5,5 +5,10 @@
 					"branch": "master",
 					"description": "Test project created by xpresso platform"
 		  		  }
-		     }
+		     },
+			"echo_task": {
+							"branch": "master",
+							"description": "Test project created by xpresso platform"
+						  }
+					 }
 }

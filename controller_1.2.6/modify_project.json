@@ -5,12 +5,26 @@
 	"owner" : {
 		"uid": "reyazabzooba"
 	},
-	"components" :
+	"components" : [
 		{
 			"name" : "python-services",
 			"type" : "datascience-job",
 			"flavor" : "python"
+		},
+		{
+			"name" : "echo_task",
+			"type" : "datascience-job",
+			"flavor" : "python"
 		}
-
-
+	],
+	"pipelines" : [
+		{
+			"name" : "sequential pipeline19",
+			"components" : ["python-services", "echo_task"],
+			"declarative_json" : "seq-pipeline-def.json"
+		}
+	]
 }
+
+
+

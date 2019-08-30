@@ -20,8 +20,8 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["mongo-service", "echo_task"],
-			"declarative_json" : ""
+			"components" : ["mongo-service", "echo_task"]
+
 		}
 	]
 }

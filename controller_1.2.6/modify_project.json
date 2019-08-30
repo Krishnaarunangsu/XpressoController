@@ -20,7 +20,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : [],
+
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

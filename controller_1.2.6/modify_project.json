@@ -19,7 +19,7 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "",
+
 			"components" : ["mongo-service", "echo_task"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}

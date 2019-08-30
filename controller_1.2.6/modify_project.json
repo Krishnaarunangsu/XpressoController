@@ -9,7 +9,7 @@
 		{
 			"name" : "mongo-service",
 			"type" : "datascience-job",
-			"flavor" : "java"
+			"flavor" : "python"
 		},
 		{
 			"name" : "echo_task",
@@ -19,9 +19,9 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential pipeline19",
-			"components" : ["mongo-service", "echo_task"]
-
+			"name" : "",
+			"components" : ["mongo-service", "echo_task"],
+			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

@@ -21,7 +21,7 @@
 		{
 			"name" : "sequential pipeline19",
 			"components" : ["mongo-service", "echo_task"],
-			"declarative_json" : "seq-pipeline-def.json"
+			"declarative_json" : "project.json"
 		}
 	]
 }

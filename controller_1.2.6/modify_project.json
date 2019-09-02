@@ -1,30 +1,11 @@
 {
-	"name" : "sequential_pipeline_project_3",
-	"projectDescription" : "Pipeline Test project created by xpresso ai platform",
-	"environments" : ["QA"],
-	"owner" : {
-		"uid": "reyazabzooba"
-	},
-	"components" : [
-		{
-			"name" : "mongo-service",
-			"type" : "datascience-job",
-			"flavor" : "python"
-		},
-		{
-			"name" : "echo_task",
-			"type" : "datascience-job",
-			"flavor" : "python"
-		}
-	],
-	"pipelines" : [
-		{
-			"name" : "sequential pipeline19",
-
-			"declarative_json" : "seq-pipeline-def.json"
-		}
+	"name": "sequential_pipeline_project_3",
+	"projectDescription": "Pipeline Test project created by xpresso ai platform",
+	"environments": [
+		"QA"
 	]
 }
+
 
 
 

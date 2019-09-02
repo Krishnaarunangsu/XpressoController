@@ -4,6 +4,10 @@
 		"python_service": {
 			"branch": "master",
 			"description": "trial version - 1"
+		},
+		"sql_service": {
+			"branch": "master",
+			"description": "trial version - 1"
 		}
 	}
 }

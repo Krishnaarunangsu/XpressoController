@@ -17,5 +17,12 @@
 			"type" : "database",
 			"flavor" : "sql"
 		}
+	],
+	"pipelines" : [
+		{
+			"name" : "sequential_pipeline19",
+			"components" : ["python_service", "sql_service"],
+			"declarative_json" : "seq-pipeline-def.json"
+		}
 	]
 }

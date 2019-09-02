@@ -21,7 +21,7 @@
 	"pipelines" : [
 		{
 			"name" : "sequential pipeline19",
-			"components" : ["python-service", "sql_service"],
+			"components" : ["python_service", "sql_service"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

@@ -9,13 +9,13 @@
 	"components" : [
 		{
 			"name" : "python_service",
-			"type" : "datascience-job",
+			"type" : "job",
 			"flavor" : "python"
 		},
 		{
 			"name" : "sql_service",
-			"type" : "datascience-job",
-			"flavor" : "python"
+			"type" : "database",
+			"flavor" : "sql"
 		}
 	],
 	"pipelines" : [

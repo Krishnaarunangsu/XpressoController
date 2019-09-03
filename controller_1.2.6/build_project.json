@@ -1,11 +1,7 @@
 {
-	"name": "sequential_pipeline_project_40",
+	"name": "sequential_non_pipeline_project_35",
 	"components": {
 		"python_service": {
-			"branch": "master",
-			"description": "trial version - 1"
-		},
-		"sql_service": {
 			"branch": "master",
 			"description": "trial version - 1"
 		}

@@ -1,0 +1,7 @@
+{
+    "repo_name": "sample_repo",
+    "branch_name": "sample_branch",
+    "dataset_name": "sample_dataset",
+    "description": "sample push",
+    "path": "samples/"
+}

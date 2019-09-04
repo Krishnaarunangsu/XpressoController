@@ -1,8 +1,12 @@
 {
+<<<<<<< HEAD
     "uid": "reyaz_15",
+=======
+    "uid": "reyaz16",
+>>>>>>> 740668e127a97d52708f3848a6e645a9c91c9f62
     "firstName": "Reyaz",
     "lastName": "Ahmad",
-    "pwd": "AhmaD@19",
+    "pwd": "rahmad",
     "email": "reyazahmad0011@gmail.com",
-    "primaryRole": "DH"
+    "primaryRole": "PM"
 }

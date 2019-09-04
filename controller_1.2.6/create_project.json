@@ -1,8 +1,8 @@
 {
-	"name" : "sequential_pipeline_project_41",
+	"name" : "sequential_pipeline_project_42",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
-		"uid": "reyaz16"
+		"uid": "reyaz11"
 	},
     "developers" : ["reyazsikkim"],
 	"environments" : ["QA"],

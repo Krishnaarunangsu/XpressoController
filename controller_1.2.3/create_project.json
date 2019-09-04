@@ -1,6 +1,6 @@
 {
-	"name" : "non_pipeline_project_8",
-	"projectDescription" : "Test project created by xpresso platform",
+	"name" : "non_pipeline_project_45",
+	"projectDescription" : "Python Project created by Xpresso Platform",
 	"owner" : {
 		"uid": "ArunangsuSa2"
 	},
@@ -8,12 +8,12 @@
 	"environments" : ["QA", "DEV"],
 	"components" : [
 		{
-			"name" : "download_task",
+			"name" : "python_service",
 			"type" : "job",
 			"flavor" : "python"
 		},
 		{
-			"name" : "echo_task",
+			"name" : "database_service",
 			"type" : "database",
 			"flavor" : "sql"
 		}

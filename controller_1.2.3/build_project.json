@@ -1,5 +1,5 @@
 { 
-	"name": "non_pipeline_project_45",
+	"name": "non_pipeline_project_46",
 	"components":{
 			"python_service": {
 					"branch": "master",

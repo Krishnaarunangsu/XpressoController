@@ -1,14 +1,9 @@
 { 
-	"name": "non_pipeline_project_6",
+	"name": "non_pipeline_project_45",
 	"components":{
-			"download_task": {
+			"python_service": {
 					"branch": "master",
-					"description": "Test project created by xpresso platform"
+					"description": "Python-flavoured Non-pipeline project created by xpresso platform"
 		  		  }
-		     },
-			"echo_task": {
-							"branch": "master",
-							"description": "Test project created by xpresso platform"
-						  }
-					 }
+		     }
 }

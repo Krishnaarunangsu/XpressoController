@@ -1,19 +1,10 @@
 {
-	"name": "project2",
+	"name": "sequential_pipeline_project_63",
 	"cluster": "qacluster",
+	"target_environment" : "QA",
 	"components": {
-			"project2_service":{
-					"replicas" : 2,
-					"build_version" : 1,
-					"environment" : [],
-					"ports" : [{"name" : "default", "port" : 5000}, {"name" : "app1_port_new", "port" : 5051}],
-					"persistence" : [{
-						"size" : "10Gi",
-						"mount_path": "/var/lib/mysql"
-					}],
-					"is_external": true
-			},
-			"project2_job":{
+
+			"python_service":{
 					"replicas" : 2,
 					"build_version" : 1,
 					"environment" : [],
@@ -22,16 +13,29 @@
 					"commands" : []
 				       }
 		      },
+
+		"sql_service":{
+		 "replicas" : 2,
+		 "build_version" : 1,
+		 "environment" : [],
+		 "ports" : [{"name" : "default", "port" : 5000}, {"name" : "app1_port_new", "port" : 5051}],
+		 "persistence" : [{
+			"size" : "10Gi",
+			"mount_path": "/var/lib/mysql"
+		 }],
+     "is_external": true
+},
+
 	"pipelines" : {
-			"test-pipeline" :
+			"sequential_pipeline22" :
 			{
 				"components":
 				{
-					"ds-service-component" :
+					"python_service" :
 					{
 						"build_version": 1
 					},
-					"ds-job-component" :
+					"sql_service" :
 					{
 						"build_version": 1
 					}

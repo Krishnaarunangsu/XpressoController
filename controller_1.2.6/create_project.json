@@ -1,5 +1,5 @@
 {
-	"name" : "sequential_pipeline_project_62",
+	"name" : "sequential_non_pipeline_project_65",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "reyaz13"
@@ -8,21 +8,14 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "python_service",
+			"name" : "java_service",
 			"type" : "job",
-			"flavor" : "python"
+			"flavor" : "java"
 		},
 		{
 			"name" : "sql_service",
 			"type" : "database",
 			"flavor" : "sql"
-		}
-	],
-	"pipelines" : [
-		{
-			"name" : "sequential_pipeline22",
-			"components" : ["python_service", "sql_service"],
-			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

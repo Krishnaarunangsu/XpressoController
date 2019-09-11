@@ -1,7 +1,7 @@
 {
-	"name": "sequential_pipeline_project_63",
+	"name": "sequential_non_pipeline_project_65",
 	"components": {
-		"python_service": {
+		"java_service": {
 			"branch": "master",
 			"description": "trial version - 1"
 		},

@@ -1,5 +1,5 @@
 {
-	"name" : "non_pipeline_project_52",
+	"name" : "non_pipeline_project_54",
 	"projectDescription" : "Python Project created by Xpresso Platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -10,6 +10,11 @@
 		{
 			"name" : "python_job",
 			"type" : "job",
+			"flavor" : "python"
+		},
+		{
+			"name" : "python_service",
+			"type" : "service",
 			"flavor" : "python"
 		}
 	]

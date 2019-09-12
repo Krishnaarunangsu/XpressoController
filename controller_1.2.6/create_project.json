@@ -33,12 +33,5 @@
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
 		}
-	],
-	"pipelines" : [
-		{
-			"name" : "sequential_pipeline11",
-			"components" : ["ds-job-taxi", "ds-service-taxi"],
-			"declarative_json" : "seq-pipeline-def.json"
-		}
 	]
 }

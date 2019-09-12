@@ -1,32 +1,44 @@
 {
-	"name" : "sequential_pipeline55_project_66",
-	"projectDescription" : "Pipeline Test project created by xpresso platform",
+	"name" : "sequential_pipeline_project71",
+	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
-		"uid": "reyaz13"
+		"uid": "reyaz35"
 	},
-    "developers" : ["reyazsikkim"],
-	"environments" : ["QA"],
+    "developers" : ["reyaz39"],
+	"environments":["DEV"],
+	"persistent_volume_size": 6,
 	"components" : [
 		{
-			"name" : "python_service",
-			"type" : "job",
-			"flavor" : "python"
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "reyaz_1"
 		},
 		{
-			"name" : "sql_service",
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "reyaz_2"
+		},
+		{
 			"type" : "database",
-			"flavor" : "sql"
+			"flavor" : "sql",
+			"name" : "database-service"
+		},
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "ds-service-taxi"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "ds-job-taxi"
 		}
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential_pipeline22",
-			"components" : ["python_service", "sql_service"],
+			"name" : "sequential_pipeline11",
+			"components" : ["ds-job-taxi", "ds-service-taxi"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }
-
-
-
-

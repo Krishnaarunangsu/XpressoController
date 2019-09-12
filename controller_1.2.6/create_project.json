@@ -1,5 +1,5 @@
 {
-	"name" : "sequential_pipeline55_project_65",
+	"name" : "sequential_pipeline55_project_66",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "reyaz13"
@@ -8,7 +8,7 @@
 	"environments" : ["QA"],
 	"components" : [
 		{
-			"name" : "java_service",
+			"name" : "python_service",
 			"type" : "job",
 			"flavor" : "java"
 		},

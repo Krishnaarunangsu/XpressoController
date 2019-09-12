@@ -1,5 +1,5 @@
 {
-	"name" : "1pythonproject_54",
+	"name" : "pythonproject_55",
 	"projectDescription" : "Python Project created by Xpresso Platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -8,9 +8,9 @@
 	"environments" : ["QA", "DEV"],
 	"components" : [
 		{
-			"name" : "java_job",
+			"name" : "python_job",
 			"type" : "job",
-			"flavor" : "java"
+			"flavor" : "python"
 		},
 		{
 			"name" : "python_service",

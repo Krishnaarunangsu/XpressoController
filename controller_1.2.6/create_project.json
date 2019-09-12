@@ -10,7 +10,7 @@
 		{
 			"name" : "python_service",
 			"type" : "job",
-			"flavor" : "java"
+			"flavor" : "python"
 		},
 		{
 			"name" : "sql_service",
@@ -20,8 +20,8 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "sequential_pipeline23",
-			"components" : [],
+			"name" : "",
+			"components" : ["python_service", "sql_service"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]

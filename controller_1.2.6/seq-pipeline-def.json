@@ -9,7 +9,7 @@
   "components": [
     {
       "name": "data_fetch",
-	  "xpresso_reference": "download_task",
+	  "xpresso_reference": "ds-job-taxi",
       "description": "downloads text from given url",
       "inputs": [
 		{
@@ -47,7 +47,7 @@
     },
     {
       "name": "data_process",
-	  "xpresso_reference": "echo_task",
+	  "xpresso_reference": "ds-service-taxi",
       "description": "echoes text",
       "inputs": [
 		  {

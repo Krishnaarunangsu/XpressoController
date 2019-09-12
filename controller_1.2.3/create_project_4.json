@@ -6,6 +6,7 @@
 	},
     "developers" : ["ArunangsuSa2"],
 	"environments" : ["QA", "DEV"],
+	"persistent_volume_size": 6,
 	"components" : [
 		{
 			"name" : "python_job",

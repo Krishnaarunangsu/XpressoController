@@ -4,7 +4,9 @@
 	"owner" : {
 		"uid": "ASahu2"
 	},
-        "developers" : [""],
+	"developers" : ["ArunangsuSa2"],
+	"environments" : ["QA", "DEV"],
+	"persistent_volume_size": 6,
 	"components" : [
 		{
 			"type" : "service",

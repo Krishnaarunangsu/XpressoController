@@ -1,0 +1,44 @@
+{
+	"name" : "bcbs_3",
+	"projectDescription" : "Pipeline Test project created by xpresso platform",
+	"owner" : {
+		"uid": "ASahu2"
+	},
+	"developers" : ["ArunangsuSa2"],
+	"environments" : ["QA", "DEV"],
+	"persistent_volume_size": 6,
+	"components" : [
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "service-reader"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "crawler-service"
+		},
+		{
+			"type" : "database",
+			"flavor" : "sql",
+			"name" : "database-service"
+		},
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "ds-service-taxi"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "ds-job-taxi"
+		}
+	],
+	"pipelines" : [
+		{
+			"name" : "tfx-taxi-cab-classification",
+			"components" : ["ds-job-taxi", "ds-service-taxi"],
+			"declarative_json" : ""
+		}
+	]
+}

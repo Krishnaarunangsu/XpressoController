@@ -1,0 +1,9 @@
+{
+	"name" : "bcbs_2",
+	"pipelines" : [
+		{
+			"name" : "tfx-taxi-cab-classification",
+			"declarative_json" : "seq-pipeline-def.json"
+		}
+	]
+}

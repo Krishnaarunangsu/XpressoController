@@ -1,0 +1,17 @@
+{
+	"name" : "python_project_bcbs_2",
+	"projectDescription" : "Python Project created by Xpresso Platform",
+	"owner" : {
+		"uid": "ASahu2"
+	},
+    "developers" : ["ArunangsuSa2"],
+	"environments" : ["QA", "DEV"],
+	"persistent_volume_size": 6,
+	"components" : [
+		{
+			"name" : "python_service",
+			"type" : "service",
+			"flavor" : "python"
+		}
+	]
+}

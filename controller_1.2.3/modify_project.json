@@ -1,0 +1,15 @@
+{
+	"name" : "piproject3",
+	"components" : [
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "service-reader"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "ds-job-taxi"
+		}
+	]
+}

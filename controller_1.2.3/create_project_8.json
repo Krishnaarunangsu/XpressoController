@@ -1,5 +1,5 @@
 {
-	"name" : "bcbs_2",
+	"name" : "bcbs_3",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -38,7 +38,6 @@
 		{
 			"name" : "tfx-taxi-cab-classification",
 			"components" : ["ds-job-taxi", "ds-service-taxi"],
-			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

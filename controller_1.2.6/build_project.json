@@ -1,11 +1,11 @@
 {
-	"name": "sequential_non_pipeline_project_65",
+	"name": "sequential_pipeline_project72",
 	"components": {
-		"java_service": {
+		"ds-service-taxi": {
 			"branch": "master",
 			"description": "trial version - 1"
 		},
-		"sql_service": {
+		"ds-job-taxi": {
 			"branch": "master",
 			"description": "trial version - 1"
 		}

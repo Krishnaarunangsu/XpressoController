@@ -9,7 +9,7 @@
 	"persistent_volume_size": 6,
 	"components" : [
 		{
-			"name" : "python_service",
+			"name" : "",
 			"type" : "service",
 			"flavor" : "python"
 		}

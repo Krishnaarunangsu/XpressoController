@@ -1,5 +1,5 @@
 { 
-	"name": "python_project_bcbs_2",
+	"name": "python_project_bcbs_3",
 	"components":{
 			"python_service": {
 					"branch": "master",

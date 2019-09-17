@@ -2,7 +2,7 @@
 	"name": "python_bcbs_project_3",
 	"target_environment" : "DEV",
 	"components": {
-			"python_bcbs_project_3_job":{
+			"python_job":{
 					"replicas" : 2,
 					"build_version" : 1,
 					"environment" : [],

@@ -1,0 +1,14 @@
+{
+	"name": "python_bcbs_project_3",
+	"target_environment" : "QA",
+	"components": {
+			"python_bcbs_project_3_job":{
+					"replicas" : 2,
+					"build_version" : 1,
+					"environment" : [],
+					"type" : "job",
+					"cron_schedule" : "",
+					"commands" : []
+				       }
+		      }
+}

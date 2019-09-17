@@ -1,7 +1,7 @@
 { 
-	"name": "python_project_bcbs_3",
+	"name": "python_bcbs_project_3",
 	"components":{
-			"python_service": {
+			"python_job": {
 					"branch": "master",
 					"description": "Python-flavoured Non-pipeline project created by xpresso platform"
 		  		  }

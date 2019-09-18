@@ -30,7 +30,7 @@
 			"name" : "ds-service-taxi"
 		},
 		{
-			"type" : "datascience-job",
+			"type" : "job",
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
 		}

@@ -16,6 +16,7 @@
 		{
 			"type" : "job",
 			"flavor" : "python",
+			"name" : "crawler-service"
 
 		},
 		{

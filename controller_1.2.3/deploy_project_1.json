@@ -1,6 +1,6 @@
 {
 	"name": "python_bcbs_project_3",
-	"target_environment" : "DEV",
+	"target_environment" : "QA",
 	"components": {
 			"python_job":{
 					"replicas" : 2,

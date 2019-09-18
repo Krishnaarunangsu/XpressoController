@@ -30,7 +30,7 @@
 			"name" : "ds-service-taxi"
 		},
 		{
-			"type" : "job",
+			"type" : "datascience-job",
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
 		}
@@ -38,8 +38,8 @@
 	"pipelines" : [
 		{
 			"name" : "tfx-taxi-cab-classification",
-			"components" : ["ds-job-taxi", "ds-service-taxi"]
-
+			"components" : ["ds-job-taxi", "ds-service-taxi"],
+			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

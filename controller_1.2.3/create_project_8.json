@@ -38,6 +38,7 @@
 		{
 			"name" : "tfx-taxi-cab-classification",
 			"components" : ["ds-job-taxi", "ds-service-taxi"],
+			"declarative_json" : "seq-pipeline-def.json"
 		}
 	]
 }

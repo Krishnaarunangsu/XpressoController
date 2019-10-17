@@ -1,5 +1,5 @@
 {
-	"name" : "bcbs_3",
+	"name" : "",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -16,7 +16,8 @@
 		{
 			"type" : "job",
 			"flavor" : "python",
-			"name" : "crawler-service"
+			"name" : "Getway-service"
+
 		},
 		{
 			"type" : "database",
@@ -29,7 +30,7 @@
 			"name" : "ds-service-taxi"
 		},
 		{
-			"type" : "job",
+			"type" : "datascience-job",
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
 		}

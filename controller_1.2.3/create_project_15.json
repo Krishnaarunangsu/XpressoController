@@ -1,5 +1,5 @@
 {
-	"name" : "bcbs_3",
+	"name" : "diamond_resort_2",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -17,6 +17,7 @@
 			"type" : "job",
 			"flavor" : "python",
 			"name" : "crawler-service"
+
 		},
 		{
 			"type" : "database",
@@ -36,7 +37,6 @@
 	],
 	"pipelines" : [
 		{
-			"name" : "tfx-taxi-cab-classification",
 			"components" : ["ds-job-taxi", "ds-service-taxi"],
 			"declarative_json" : "seq-pipeline-def.json"
 		}

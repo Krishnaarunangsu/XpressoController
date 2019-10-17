@@ -1,5 +1,5 @@
 {
-	"name" : "bcbs_3",
+	"name" : "diamond_resort_2",
 	"projectDescription" : "Pipeline Test project created by xpresso platform",
 	"owner" : {
 		"uid": "ASahu2"
@@ -29,7 +29,7 @@
 			"name" : "ds-service-taxi"
 		},
 		{
-			"type" : "job",
+			"type" : "datascience-job",
 			"flavor" : "python",
 			"name" : "ds-job-taxi"
 		}

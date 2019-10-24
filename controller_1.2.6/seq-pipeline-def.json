@@ -1,15 +1,14 @@
 {
-  "name": "sequential_pipeline",
+  "name": "sequential_pipeline_for_taxi",
   "description": "A pipeline with two sequential steps.",
   "main_func_params": {
     "##dummyfileurl1##": "http://25.io/toau/audio/sample.txt",
 	"##dummyfileurl2##": "https://sample-videos.com/text/Sample-text-file-10kb.txt"
   },
-  "pvc_size" : "2Gi",
   "components": [
     {
       "name": "data_fetch",
-	  "xpresso_reference": "ds-job-taxi",
+	  "xpresso_reference": "ds_job_taxi",
       "description": "downloads text from given url",
       "inputs": [
 		{
@@ -47,7 +46,7 @@
     },
     {
       "name": "data_process",
-	  "xpresso_reference": "ds-service-taxi",
+	  "xpresso_reference": "ds_service_taxi",
       "description": "echoes text",
       "inputs": [
 		  {
@@ -81,3 +80,4 @@
   ],
 "after_dependencies": {"data_process":"data_fetch"}
 }
+

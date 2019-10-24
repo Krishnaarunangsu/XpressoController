@@ -4,7 +4,7 @@
 	"owner" : {
 		"uid": "reyaz35"
 	},
-    "developers" : ["reyaz39"],
+    "developers" : ["reyaz81"],
 	"environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components" : [

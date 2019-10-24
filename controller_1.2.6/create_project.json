@@ -39,7 +39,7 @@
 			"name" : "tfx_taxi_cab_classification",
 			"components" : ["ds_job_taxi", "ds_service_taxi"],
 			"flavor": "kubeflow",
-			"declarative_json" : "/home/abzooba/seq-pipeline-def.json"
+			"declarative_json" : "/home/abzooba/PycharmProjects/XpressoController/samples/seq-pipeline-def.json"
 		}
 	]
 }

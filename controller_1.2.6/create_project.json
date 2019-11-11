@@ -1,37 +1,42 @@
 {
-	"name" : "sequential_pipeline20",
-	"projectDescription" : "Test project created by xpresso platform",
-	"owner" : {
-		"uid": "reyaz35"
+	"name": "project1",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "admin1"
 	},
-    "developers" : ["reyaz81"],
-	"environments":["DEV"],
-	"persistent_volume_size":6,
-	"components" : [
-		{
-			"type" : "service",
-			"flavor" : "python",
-			"name" : "service_reader"
+	"developers": ["admin1"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+	"components": [{
+			"type": "service",
+			"flavor": "python",
+			"name": "service_reader"
 		},
 		{
-			"type" : "job",
-			"flavor" : "python",
-			"name" : "crawler_service"
+			"type": "job",
+			"flavor": "python",
+			"name": "crawler_service"
 		},
 		{
-			"type" : "database",
-			"flavor" : "sql",
-			"name" : "database_service"
+			"type": "database",
+			"flavor": "sql",
+			"name": "database_service"
 		},
 		{
-			"type" : "service",
-			"flavor" : "python",
-			"name" : "ds_service_taxi"
+			"type": "service",
+			"flavor": "python",
+			"name": "ds_service_taxi"
 		},
 		{
-			"type" : "job",
-			"flavor" : "python",
-			"name" : "ds_job_taxi"
+			"type": "job",
+			"flavor": "python",
+			"name": "ds_job_taxi"
 		}
-	]
+	],
+	"pipelines": [{
+		"name": "tfx_taxi_cab_classification",
+		"components": ["ds_job_taxi", "ds_service_taxi"],
+		"flavor": "kubeflow",
+		"declarative_json": "/home/abzooba/seq-pipeline-def.json"
+	}]
 }

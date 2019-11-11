@@ -1,0 +1,29 @@
+{
+	"name" : "naveensinha_spark_test_6",
+	"projectDescription" : "Test project for spark",
+	"owner" : {
+		"uid": "naveensinha"
+	},
+  	"developers" : ["naveensinha"],
+	"bigdata_environments":["DEV"],
+	"persistent_volume_size": 6,
+	"components" : [
+		{
+			"type" : "job",
+			"flavor" : "pyspark",
+			"name" : "one_hot_encoder"
+		},
+		{
+			"type" : "job",
+			"flavor" : "pyspark",
+			"name" : "vector_assembler"
+		}
+	],
+	"pipelines" : [
+		{
+			"name" : "feature_generation_pipeline",
+			"components" : ["one_hot_encoder", "vector_assembler"],
+			"flavor": "pyspark"
+		}
+	]
+}

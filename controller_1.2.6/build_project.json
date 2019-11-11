@@ -1,13 +1,22 @@
-{
-	"name": "sequential_pipeline_project72",
-	"components": {
-		"ds-service-taxi": {
+{ 
+	"name": "project1",
+	"components":{
+		"service_reader": {
 			"branch": "master",
 			"description": "trial version - 1"
-		},
-		"ds-job-taxi": {
+			},
+		"database_service": {
 			"branch": "master",
 			"description": "trial version - 1"
+			},
+		"crawler_service": {
+			"branch": "master",
+			"description": "trial version - 1"
+			},
+		"ds_service_taxi": {
+			"branch": "develop",
+			"description": "trial version - 1"
+			}
 		}
 	}
 }

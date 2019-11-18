@@ -1,0 +1,30 @@
+{
+        "name" : "testing_pi_2",
+        "projectDescription" : "project for testing create project",
+        "owner" : {
+                "uid": "pi"
+        },
+    "developers" : ["pi"],
+        "environments":["DEV"],
+        "persistent_volume_size": 1,
+        "components" : [
+                {
+                        "type" : "service",
+                        "flavor" : "python",
+                        "name" : "ds_service_taxi"
+                },
+                {
+                        "type" : "job",
+                        "flavor" : "python",
+                        "name" : "ds_job_taxi"
+                }
+        ],
+        "pipelines" : [
+                {
+                        "name" : "tfx-taxi-cab-classification",
+                        "components" : ["ds_job_taxi", "ds_service_taxi"],
+                        "declarative_json" : "./seq-pipeline-def.json",
+                        "flavor": "kubeflow"
+                }
+        ]
+}

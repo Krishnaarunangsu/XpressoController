@@ -1,12 +1,12 @@
 {
-	"name" : "sequential_pipeline13",
+	"name" : "test_project_gopi",
 	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
-		"uid": "reyaz35"
+		"uid": "gopikrishna"
 	},
-    "developers" : ["reyaz81"],
+    "developers" : ["gopikrishna"],
 	"environments":["DEV"],
-	"persistent_volume_size":6,
+	"persistent_volume_size":1,
 	"components" : [
 		{
 			"type" : "service",

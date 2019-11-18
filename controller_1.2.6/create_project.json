@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline_project13",
+	"name": "non_pipeline_project14",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -9,28 +9,13 @@
 	"persistent_volume_size": 6,
 	"components": [{
 			"type": "service",
-			"flavor": "python",
+			"flavor": "java",
 			"name": "service_reader"
 		},
 		{
 			"type": "job",
-			"flavor": "python",
+			"flavor": "java",
 			"name": "crawler_service"
-		},
-		{
-			"type": "database",
-			"flavor": "sql",
-			"name": "database_service"
-		},
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "ds_service_taxi"
-		},
-		{
-			"type": "job",
-			"flavor": "python",
-			"name": "ds_job_taxi"
 		}
 	]
 }

@@ -1,13 +1,26 @@
-{
-	"name": "testing_pi_2",
-	"components": {
+<<<<<<< HEAD
+
+{ 
+	"name": "project11",
+	"components":{
+		"service_reader": {
+			"branch": "master",
+			"description": "trial version - 1"
+			},
+		"database_service": {
+
+			"branch": "master",
+			"description": "trial version - 1"
+			},
+		"crawler_service": {
+			"branch": "master",
+			"description": "trial version - 1"
+			},
 		"ds_service_taxi": {
-			"branch": "master",
+			"branch": "develop",
 			"description": "trial version - 1"
-		},
-		"ds_job_taxi": {
-			"branch": "master",
-			"description": "trial version - 1"
+			}
 		}
 	}
+
 }

@@ -1,0 +1,10 @@
+{
+	"name": "naveensinha_spark_test_2",
+	"target_environment_type" : "spark",
+	"target_environment" : "DEV",
+	"pipelines" : {
+		"feature_generation_pipeline": {
+			"branch" : "master"
+		}
+	}
+}

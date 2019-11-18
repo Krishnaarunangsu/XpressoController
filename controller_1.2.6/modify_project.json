@@ -1,11 +1,15 @@
 {
-	"name": "sequential_pipeline_project_3",
-	"projectDescription": "Pipeline Test project created by xpresso ai platform",
-	"environments": [
-		"QA"
+	"name" : "project1",
+	"components" : [
+		{
+			"type" : "service",
+			"flavor" : "python",
+			"name" : "infer_service"
+		},
+		{
+			"type" : "job",
+			"flavor" : "python",
+			"name" : "taxi_data_fetch"
+		}
 	]
 }
-
-
-
-

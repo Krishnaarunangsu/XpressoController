@@ -1,14 +1,11 @@
-<<<<<<< HEAD
-
 { 
-	"name": "project11",
+	"name": "project1",
 	"components":{
 		"service_reader": {
 			"branch": "master",
 			"description": "trial version - 1"
 			},
 		"database_service": {
-
 			"branch": "master",
 			"description": "trial version - 1"
 			},
@@ -22,5 +19,4 @@
 			}
 		}
 	}
-
 }

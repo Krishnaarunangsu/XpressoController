@@ -1,5 +1,5 @@
 { 
-	"name": "non_pipeline_project16",
+	"name": "non_pipeline_project14",
 	"components":{
 		"service_reader": {
 			"branch": "master",

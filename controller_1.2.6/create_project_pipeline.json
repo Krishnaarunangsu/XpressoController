@@ -52,7 +52,7 @@
 	"pipelines": [{
 		"name": "tfx_taxi_cab_classification",
 		"components": ["ds_job_taxi", "ds_service_taxi"],
-		"flavor": "spark",
+		"flavor": "pyspark",
 		"declarative_json": "seq-pipeline-def.json"
 	}],
 	"service_mesh": [

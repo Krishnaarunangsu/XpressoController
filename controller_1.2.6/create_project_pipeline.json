@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_project12",
+	"name": "pipeline_project13",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -54,11 +54,5 @@
 		"components": ["ds_job_taxi", "ds_service_taxi"],
 		"flavor": "pyspark",
 		"declarative_json": "seq-pipeline-def.json"
-	}],
-	"service_mesh": [
-        {
-          "name" : "reviews_service",
-          "components" : ["no_stars", "black_stars", "red_stars"]
-        }
-  ]
+	}]
 }

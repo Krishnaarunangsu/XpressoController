@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_project11",
+	"name": "pipeline_project12",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -52,7 +52,7 @@
 	"pipelines": [{
 		"name": "tfx_taxi_cab_classification",
 		"components": ["ds_job_taxi", "ds_service_taxi"],
-		"flavor": "kubeflow",
+		"flavor": "spark",
 		"declarative_json": "seq-pipeline-def.json"
 	}],
 	"service_mesh": [

@@ -1,7 +1,7 @@
 {
 	"experiment name" : "sample_experiment",
 	"project name" : "sample_project",
-	"description" : "creae a new experiment",
+	"description" : "create a new experiment",
 	"pipeline name": "sample_pipeline",
 	"target_environment" : "DEV"
 }

@@ -1,5 +1,5 @@
 {
-	"name" : "naveensinha_spark_test_6",
+	"name" : "naveensinha_spark_start_pause_test",
 	"projectDescription" : "Test project for spark",
 	"owner" : {
 		"uid": "naveensinha"
@@ -11,18 +11,23 @@
 		{
 			"type" : "job",
 			"flavor" : "pyspark",
-			"name" : "one_hot_encoder"
+			"name" : "counter1"
 		},
 		{
 			"type" : "job",
 			"flavor" : "pyspark",
-			"name" : "vector_assembler"
+			"name" : "counter2"
+		},
+		{
+			"type" : "job",
+			"flavor" : "pyspark",
+			"name" : "counter3"
 		}
 	],
 	"pipelines" : [
 		{
-			"name" : "feature_generation_pipeline",
-			"components" : ["one_hot_encoder", "vector_assembler"],
+			"name" : "counter_pipeline",
+			"components" : ["counter1", "counter2", "counter3"],
 			"flavor": "pyspark"
 		}
 	]

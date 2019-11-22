@@ -1,13 +1,14 @@
-{ 
+{
 	"name": "non_pipeline_project14",
-	"components":{
+	"components": {
 		"service_reader": {
 			"branch": "master",
 			"description": "trial version - 1"
-			},
+		},
 		"crawler_service": {
 			"branch": "master",
 			"description": "trial version - 1"
-			}
+		}
 	}
+}
 

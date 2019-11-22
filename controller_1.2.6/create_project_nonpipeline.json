@@ -40,7 +40,7 @@
         },
         {
            "name" : "black_stars",
-           "type" : "service",
+           "type" : "job",
            "flavor" : "python"
         },
         {

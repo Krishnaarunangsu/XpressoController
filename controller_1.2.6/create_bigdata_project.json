@@ -1,10 +1,10 @@
 {
-	"name" : "naveensinha_spark_start_pause_test",
+	"name" : "spark_start_pause_test",
 	"projectDescription" : "Test project for spark",
 	"owner" : {
-		"uid": "naveensinha"
+		"uid": "reyaz35"
 	},
-  	"developers" : ["naveensinha"],
+  	"developers" : ["reyaz83"],
 	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components" : [

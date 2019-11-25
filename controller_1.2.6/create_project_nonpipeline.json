@@ -38,11 +38,7 @@
            "type" : "service",
            "flavor" : "python"
         },
-        {
-           "name" : "black_stars",
-           "type" : "service",
-           "flavor" : "python"
-        },
+
         {
            "name" : "red_stars",
            "type" : "service",

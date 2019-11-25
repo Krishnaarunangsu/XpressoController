@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline_project22",
+	"name": "non_pipeline_project23",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -15,7 +15,7 @@
 		},
 		{
 			"type": "job",
-			"flavor": "python",
+			"flavor": "java",
 			"name": "crawler_service"
 		},
 		{
@@ -38,7 +38,11 @@
            "type" : "service",
            "flavor" : "python"
         },
-
+        {
+           "name" : "black_stars",
+           "type" : "service",
+           "flavor" : "python"
+        },
         {
            "name" : "red_stars",
            "type" : "service",

@@ -8,31 +8,13 @@
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "service_reader"
-		},
+
 		{
 			"type": "job",
 			"flavor": "java",
 			"name": "crawler_service"
 		},
-		{
-			"type": "database",
-			"flavor": "sql",
-			"name": "database_service"
-		},
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "ds_service_taxi"
-		},
-		{
-			"type": "job",
-			"flavor": "python",
-			"name": "ds_job_taxi"
-		},
+
 		{
            "name" : "no_stars",
            "type" : "service",

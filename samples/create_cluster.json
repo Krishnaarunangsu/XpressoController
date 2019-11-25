@@ -1,6 +1,0 @@
-{
- "name": "testcluster",
- "isActive": true,
- "master_nodes": [],
- "worker_nodes":[]
-}

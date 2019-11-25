@@ -18,5 +18,6 @@
         {
           "name" : "reviews_service",
           "components" : ["no_stars", "black_stars", "red_stars"]
-        },
+        }
+	]
 }

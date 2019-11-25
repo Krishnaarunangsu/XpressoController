@@ -7,17 +7,12 @@
 	"developers": ["reyaz83"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
-	"components":[
+	"components":
 
 		{
-			"type": "job",
-			"flavor": "java",
-			"name": "crawler_service"
-		},
-	{
 			"type": "service",
-			"flavor": "java",
+			"flavor": "python",
 			"name": "service_reader"
 		}
-	]
+
 }

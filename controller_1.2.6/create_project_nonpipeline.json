@@ -10,7 +10,7 @@
 	"components":
 
 		{
-			"type": "job",
+			"type": "service",
 			"flavor": "java",
 			"name": "crawler_service"
 		}

@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline_project24",
+	"name": "non_pipeline_project25",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -7,35 +7,12 @@
 	"developers": ["reyaz83"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
-	"components": [
+	"components":
 
 		{
 			"type": "job",
-			"flavor": "java",
+			"flavor": "python",
 			"name": "crawler_service"
-		},
+		}
 
-		{
-           "name" : "no_stars",
-           "type" : "service",
-           "flavor" : "python"
-        },
-        {
-           "name" : "black_stars",
-           "type" : "service",
-           "flavor" : "python"
-        },
-        {
-           "name" : "red_stars",
-           "type" : "service",
-           "flavor" : "python"
-        }
-	],
-
-	"service_mesh": [
-        {
-          "name" : "reviews_service",
-          "components" : ["no_stars", "black_stars", "red_stars"]
-        }
-  ]
 }

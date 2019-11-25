@@ -7,11 +7,35 @@
 	"developers": ["reyaz83"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
-	"components":
+	"components": [
 
 		{
-			"type": "service",
+			"type": "job",
 			"flavor": "java",
 			"name": "crawler_service"
-		}
+		},
+
+		{
+           "name" : "no_stars",
+           "type" : "service",
+           "flavor" : "python"
+        },
+        {
+           "name" : "black_stars",
+           "type" : "service",
+           "flavor" : "python"
+        },
+        {
+           "name" : "red_stars",
+           "type" : "service",
+           "flavor" : "python"
+        }
+	],
+
+	"service_mesh": [
+        {
+          "name" : "reviews_service",
+          "components" : ["no_stars", "black_stars", "red_stars"]
+        }
+  ]
 }

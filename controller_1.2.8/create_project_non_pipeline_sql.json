@@ -1,0 +1,17 @@
+{
+	"name": "project_np_db_1",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "ASahu2"
+	},
+	"developers": ["ArunangsuSa2"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "service",
+			"flavor": "sql",
+			"name": "service_reader"
+		}
+  ]
+}

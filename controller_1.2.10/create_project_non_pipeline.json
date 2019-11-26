@@ -5,11 +5,11 @@
 		"uid": "reyaz35"
 	},
 	"developers": ["reyaz83"],
-	"environments": ["DEV"],
+	"environments": ["QA"],
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "service",
+			"type": "job",
 			"flavor": "java",
 			"name": "service_reader"
 		}]

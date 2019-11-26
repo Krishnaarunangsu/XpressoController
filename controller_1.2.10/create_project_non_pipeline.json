@@ -7,10 +7,10 @@
 	"developers": ["reyaz83"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
-	"components":
+	"components": [
 		{
 			"type": "service",
-			"flavor": "python",
+			"flavor": "java",
 			"name": "service_reader"
-		}
+		}]
 }

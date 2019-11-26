@@ -1,0 +1,15 @@
+{ 
+	"name": "non_pipeline15",
+	"components":{
+		"python_service": {
+			"branch": "test1",
+			"description": "trial version - 1"
+			},
+		"java_service_reader": {
+			"branch": "master",
+			"description": "trial version - 1"
+			}
+		}
+	}
+
+

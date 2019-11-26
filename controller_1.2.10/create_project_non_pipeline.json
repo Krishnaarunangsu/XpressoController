@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline13",
+	"name": "non_pipeline14",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -9,8 +9,8 @@
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "job",
-			"flavor": "java",
+			"type": "database",
+			"flavor": "sql",
 			"name": "service_reader"
 		}]
 }

@@ -1,0 +1,16 @@
+{
+	"name": "non_pipeline11",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "reyaz35"
+	},
+	"developers": ["reyaz83"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "service",
+			"flavor": "python",
+			"name": "service_reader"
+		}]
+}

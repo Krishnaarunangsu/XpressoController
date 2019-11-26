@@ -9,9 +9,9 @@
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "job",
+			"type": "service",
 			"flavor": "java",
-			"name": "service_reader"
+			"name": "demo_reader"
 		},
 		{
 			"type": "service",

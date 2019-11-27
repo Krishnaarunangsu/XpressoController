@@ -14,9 +14,13 @@
 			"description": "trial version - 1"
 			},
 		"ds_service_taxi": {
-			"branch": "develop",
+			"branch": "master",
 			"description": "trial version - 1"
-			}
+			},
+		"ds_job_taxi": {
+			"branch": "master",
+			"description": "trial version"
+		}
 		}
 
 }

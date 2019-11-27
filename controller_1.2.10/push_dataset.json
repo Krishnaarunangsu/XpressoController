@@ -1,6 +1,6 @@
 {
-  "repo_name": "testrepo",
-  "branch_name": "tester",
+  "repo_name": "non_pipeline21",
+  "branch_name": "demo_branch",
   "description": "Testing push dataset",
   "path": "samples/"
 }

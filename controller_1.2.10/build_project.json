@@ -1,15 +1,24 @@
 { 
-	"name": "non_pipeline15",
+	"name": "non_pipeline21",
 	"components":{
-		"python_service": {
-			"branch": "test1",
+		"service_reader": {
+			"branch": "master",
 			"description": "trial version - 1"
 			},
-		"java_service_reader": {
+		"database_service": {
 			"branch": "master",
+			"description": "trial version - 1"
+			},
+		"crawler_service": {
+			"branch": "demo_branch",
+			"description": "trial version - 1"
+			},
+		"ds_service_taxi": {
+			"branch": "develop",
 			"description": "trial version - 1"
 			}
 		}
-	}
+
+}
 
 

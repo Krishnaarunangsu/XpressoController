@@ -1,7 +1,7 @@
 {
 	"name": "non_pipeline15",
 	"target_environment_type": "kubernetes",
-	"target_environment": "QA",
+	"target_environment": "DEV",
 	"components": {
 		"service_reader": {
 			"replicas": 2,

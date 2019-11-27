@@ -38,6 +38,30 @@
 			"type": "job",
 			"cron_schedule": "",
 			"commands": []
+		},
+      "ds_service_taxi": {
+			"replicas": 2,
+			"build_version": 3,
+			"environment": [],
+			"ports": [{
+				"name": "default",
+				"port": 5000
+			}, {
+				"name": "app1_port_new",
+				"port": 5051
+			}],
+			"persistence": {
+				"mount_path": "/app/data/"
+			},
+			"is_external": true
+		},
+		"ds_job_taxi": {
+			"replicas": 2,
+			"build_version": 1,
+			"environment": [],
+			"type": "job",
+			"cron_schedule": "",
+			"commands": []
 		}
-	}
+    }
 }

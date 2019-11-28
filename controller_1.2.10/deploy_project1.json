@@ -5,7 +5,7 @@
 	"components": {
 		"service_reader": {
 			"replicas": 2,
-			"build_version": 2,
+			"build_version": 1,
 			"environment": [],
 			"ports": [{
 				"name": "default",

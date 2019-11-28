@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline21",
+	"name": "non_pipeline22",
 	"target_environment_type": "kubernetes",
 	"target_environment": "DEV",
 	"components": {
@@ -19,43 +19,7 @@
 			},
 			"is_external": true
 		},
-		"database_service": {
-			"replicas": 1,
-			"custom_docker_image": "some-custom-docker-image",
-			"environment": [{
-				"name": "MYSQL_ROOT_PASSWORD",
-				"value": "password@123"
-			}],
-			"ports": [{
-				"name": "default",
-				"port": 3306
-			}]
-		},
 		"crawler_service": {
-			"replicas": 2,
-			"build_version": 1,
-			"environment": [],
-			"type": "job",
-			"cron_schedule": "",
-			"commands": []
-		},
-      "ds_service_taxi": {
-			"replicas": 2,
-			"build_version": 3,
-			"environment": [],
-			"ports": [{
-				"name": "default",
-				"port": 5000
-			}, {
-				"name": "app1_port_new",
-				"port": 5051
-			}],
-			"persistence": {
-				"mount_path": "/app/data/"
-			},
-			"is_external": true
-		},
-		"ds_job_taxi": {
 			"replicas": 2,
 			"build_version": 1,
 			"environment": [],

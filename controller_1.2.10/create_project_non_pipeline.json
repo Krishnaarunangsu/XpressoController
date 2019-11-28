@@ -1,5 +1,5 @@
 {
-	"name": "non_pipeline21",
+	"name": "non_pipeline22",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -17,21 +17,6 @@
 			"type": "job",
 			"flavor": "python",
 			"name": "crawler_service"
-		},
-		{
-			"type": "database",
-			"flavor": "sql",
-			"name": "database_service"
-		},
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "ds_service_taxi"
-		},
-		{
-			"type": "job",
-			"flavor": "python",
-			"name": "ds_job_taxi"
 		}
 	]
 }

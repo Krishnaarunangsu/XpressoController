@@ -1,7 +1,7 @@
 {
   "repo_name": "non_pipeline21",
   "branch_name": "demo_branch21",
-  "dataset_name": "test1 - Sheet1",
+  "dataset_name": "dataset1.csv",
   "description": "Testing push dataset",
   "path": "samples/"
 }

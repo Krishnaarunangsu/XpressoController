@@ -1,7 +1,7 @@
 {
   "repo_name": "non_pipeline21",
   "branch_name": "demo_branch21",
-  "dataset_name": "first_dataset",
+  "dataset_name": "test1 - Sheet1.csv",
   "description": "Testing push dataset",
-  "path": "samples/"
+  "path": "/home/abzooba/PycharmProjects/XpressoController/samples/test1 - Sheet1.csv"
 }

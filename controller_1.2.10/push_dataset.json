@@ -3,5 +3,7 @@
   "branch_name": "demo_branch211",
   "dataset_name": "first_dataset",
   "description": "Testing push dataset",
-  "path": "/dataset1.csv"
+  "path": "dataset1.csv"
 }
+
+

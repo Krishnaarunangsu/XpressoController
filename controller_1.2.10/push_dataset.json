@@ -3,5 +3,5 @@
   "branch_name": "demo_branch21",
   "dataset_name": "first_dataset",
   "description": "Testing push dataset",
-  "path": "/samples"
+  "path": "samples/"
 }

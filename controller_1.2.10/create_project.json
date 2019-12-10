@@ -31,7 +31,7 @@
 	],
 	"pipelines": [{
 		"name": "tfx_taxi_cab_classification",
-		"components": ["service_reder"],
+		"components": ["service_reader"],
 		"flavor": "kubeflow",
 		"declarative_json": "seq-pipeline-def.json"
 	}],

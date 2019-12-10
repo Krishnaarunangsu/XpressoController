@@ -12,11 +12,16 @@
 			"type": "service",
 			"flavor": "python",
 			"name": "service_reader"
+		},
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "ds_job_taxi"
 		}
 	],
 	"pipelines": [{
 		"name": "tfx_taxi_cab_classification",
-		"components": ["service_reader"],
+		"components": ["ds_job_taxi"],
 		"flavor": "kubeflow",
 		"declarative_json": "seq-pipeline-def.json"
 	}]

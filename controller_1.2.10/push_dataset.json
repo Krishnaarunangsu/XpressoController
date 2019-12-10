@@ -1,9 +1,6 @@
 {
-  "repo_name": "non_pipeline21",
-  "branch_name": "demo_branch211",
-  "dataset_name": "first_dataset",
+  "repo_name": "testrepo",
+  "branch_name": "tester",
   "description": "Testing push dataset",
-  "path": "dataset1.csv"
+  "path": "samples/"
 }
-
-

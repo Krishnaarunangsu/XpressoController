@@ -1,10 +1,10 @@
 {
-	"name": "non_pipeline25",
+	"name": "pipeline_project21",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
 	},
-	"developers": ["reyaz83"],
+	"developers": ["reyaz81"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
@@ -12,13 +12,13 @@
 			"type": "service",
 			"flavor": "python",
 			"name": "service_reader"
-		},
-		{
-			"type": "job",
-			"flavor": "python",
-			"name": "crawler_service"
 		}
-	]
+	],
+	"pipelines": [{
+		"name": "tfx_taxi_cab_classification",
+		"components": ["ds_job_taxi", "ds_service_taxi"],
+		"flavor": "kubeflow",
+		"declarative_json": "seq-pipeline-def.json"
+	}]
 }
-
 

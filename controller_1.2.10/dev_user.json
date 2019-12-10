@@ -1,8 +1,8 @@
 {
-    "uid": "testpipowpi",
-    "firstName": "Test",
-    "lastName": "User",
-    "pwd": "testuser",
-    "email": "test.user@xprctl.com",
-    "primaryRole": "DEV"
+    "uid": "aditya.kashyap",
+    "firstName": "Aditya",
+    "lastName": "Kashyap",
+    "pwd": "Abzooba@123",
+    "email": "aditya.kashyap@abzooba.com",
+    "primaryRole": "ADMIN"
 }

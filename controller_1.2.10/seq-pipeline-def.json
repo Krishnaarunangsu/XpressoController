@@ -1,5 +1,5 @@
 {
-  "name": "sequential_pipeline_for_taxi",
+  "name": "tfx_taxi_cab_classification",
   "description": "A pipeline with two sequential steps.",
   "main_func_params": {
     "##dummyfileurl1##": "http://25.io/toau/audio/sample.txt",

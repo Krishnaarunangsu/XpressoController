@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_project24",
+	"name": "pipeline_project25",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -9,7 +9,7 @@
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "job",
+			"type": "service",
 			"flavor": "python",
 			"name": "service_reader"
 		}

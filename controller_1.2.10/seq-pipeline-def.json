@@ -1,20 +1,10 @@
 {
-  "name": "tfx_taxi_cab_classification",
+  "name": "pipeline_seq_project11",
   "description": "A pipeline with two sequential steps.",
   "main_func_params": {
     "##dummyfileurl1##": "http://25.io/toau/audio/sample.txt",
     "##dummyfileurl2##": "https://sample-videos.com/text/Sample-text-file-10kb.txt"
   },
-  "main_func_variables": {
-                            "##download_url##":"##dummyfileurl2 + '/download'##",
-                            "##convert_url##":"##dummyfileurl1 + '/convert'##",
-                            "##final_output##":"##download_url + convert_url##"
-                         },
-  "container_op": {
-                     "##name##":"checkout",
-                     "##image##":"alpine/git:latest",
-                     "##command##":"##['git', 'clone', 'https://github.com/kubeflow/pipelines.git', str(final_output) + '/pipelines']##"
-                  },
   "components": [
     {
       "name": "data_fetch",

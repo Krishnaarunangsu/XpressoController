@@ -9,17 +9,18 @@
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "service",
+			"type": "job",
 			"flavor": "python",
 			"name": "service_reader"
 		}
 
 	],
 	"pipelines": [{
-		"name": "tfx_taxi_cab_classification",
+		"name": "fetch_data",
 		"components": ["service_reader"],
 		"flavor": "kubeflow",
 		"declarative_json": "seq-pipeline-def.json"
 	}]
 }
+
 

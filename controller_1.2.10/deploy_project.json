@@ -1,5 +1,5 @@
 {
-	"name": "project1",
+	"name": "pipeline_project25",
 	"target_environment_type": "kubernetes",
 	"target_environment": "DEV",
 	"components": {

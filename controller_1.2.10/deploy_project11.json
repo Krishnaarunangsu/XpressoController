@@ -5,7 +5,7 @@
 	"components": {
 		"service_reader": {
 			"replicas": 2,
-			"build_version": 3,
+			"build_version": 4,
 			"environment": [],
 			"ports": [{
 				"name": "default",
@@ -30,47 +30,7 @@
 				}
 			}
 		}
-	},
-	"service_mesh": {
-        "reviews_service": {
-            "components": {
-                "no_stars": [{
-                    "version_name": "v1",
-                    "replicas": 1,
-                    "build_version": 2,
-                    "ports": [{"name": "http", "port": 9080}]
-                }],
-                "black_stars": [{
-                    "version_name": "v2",
-                    "replicas": 1,
-                    "custom_docker_image": "docker.io/istio/examples-bookinfo-reviews-v2:1.15.0",
-                    "ports": [{"name": "http", "port": 9080}]
-                }],
-                "red_stars": [{
-                    "version_name": "v3",
-                    "replicas": 1,
-                    "custom_docker_image": "docker.io/istio/examples-bookinfo-reviews-v3:1.15.0",
-                    "ports": [{"name": "http", "port": 9080}]
-                }]
-            },
-            "strategy": {
-                "weights": {
-                   "v3": 70,
-                    "v2": 20,
-                    "v1": 10
-                },
-                "rule": {
-                    "header": [
-                        {
-                            "match_type": "exact",
-                            "match_string": "sahil.malav",
-                            "header_value": "end-user",
-                            "destination": "v2"
-                        }
-                    ],
-                    "default_destination": "v1"
-                }
-            }
-        }
-    }
+	}
+
 }
+

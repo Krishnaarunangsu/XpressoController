@@ -38,7 +38,7 @@
 		"name": "data_pipeline_1",
 		"components": ["data_ingestion", "data_processing"],
 		"flavor": "kubeflow",
-		"declarative_json": "seq-pipeline-def_1.json"
+		"declarative_json": "seq-pipeline-def.json"
 	}],
 	"service_mesh": [
         {

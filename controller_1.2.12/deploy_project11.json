@@ -1,11 +1,11 @@
 {
-	"name": "pipeline_project25",
+	"name": "pipeline_project28",
 	"target_environment_type": "kubernetes",
 	"target_environment": "DEV",
 	"components": {
-		"service_reader": {
+		"python_reader": {
 			"replicas": 2,
-			"build_version": 4,
+			"build_version": 2,
 			"environment": [],
 			"ports": [{
 				"name": "default",
@@ -25,11 +25,12 @@
 			"components": {
 				"service_reader": {
 					"mount_path": "/app/data",
-					"custom_docker_image": "dockerregistry.xpresso.ai/xprops/pipeline_project25/service_reader--master:4"
+					"custom_docker_image": "dockerregistry.xpresso.ai/xprops/pipeline_project28/python_reader--master:2"
 				}
 			}
 		}
 	}
 
 }
+
 

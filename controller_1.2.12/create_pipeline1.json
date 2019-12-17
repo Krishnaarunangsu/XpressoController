@@ -1,0 +1,26 @@
+{
+"name": "project_pipeline11",
+"projectDescription": "Test project created by xpresso platform for simple pipeline testing",
+"owner": {
+"uid": "asarkar"
+},
+"developers": ["asarkar"],
+"environments": ["QA"],
+"persistent_volume_size": 6,
+"components": [
+
+{
+"name" : "data_fetch",
+"type" : "job",
+"flavor" : "python"
+}
+],
+"pipelines": [{
+"name": "data_fetch_python",
+"components": ["data_fetch"],
+"flavor": "kubeflow",
+"declarative_json": "seq-pipeline1-def.json"
+}]
+}
+
+

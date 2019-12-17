@@ -1,0 +1,34 @@
+{
+
+	"name": "pipeline_project28",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "reyaz35"
+	},
+	"developers": ["reyaz19"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "service",
+			"flavor": "python",
+			"name": "service_reader"
+		},
+		{
+			"type": "service",
+			"flavor": "python",
+			"name": "python_reader"
+		}
+
+	],
+	"pipelines": [{
+		"name": "fetch_data",
+		"components": ["python_reader","service_reader"],
+		"flavor": "kubeflow",
+		"declarative_json": "seq-pipeline-def.json"
+	}]
+}
+
+
+
+

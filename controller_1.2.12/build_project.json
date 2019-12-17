@@ -1,0 +1,14 @@
+{ 
+	"name": "pipeline_project28",
+	"components":{
+		"service_reader": {
+			"branch": "master",
+			"description": "trial version - 1"
+			},
+		"python_reader": {
+			"branch": "master",
+			"description": "trial version - 1"
+			}
+		}
+
+}

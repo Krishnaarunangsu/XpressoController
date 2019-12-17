@@ -1,5 +1,6 @@
 {
-	"name": "temppipeline_project26",
+
+	"name": "pipeline_project28",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -22,11 +23,12 @@
 	],
 	"pipelines": [{
 		"name": "fetch_data",
-		"components": ["service_reader","python_reader"],
+		"components": ["python_reader","service_reader"],
 		"flavor": "kubeflow",
 		"declarative_json": "seq-pipeline-def.json"
 	}]
 }
+
 
 
 

@@ -23,7 +23,7 @@
 	"pipelines": {
 		"fetch_data": {
 			"components": {
-				"service_reader": {
+				"python_reader": {
 					"mount_path": "/app/data",
 					"custom_docker_image": "dockerregistry.xpresso.ai/xprops/pipeline_project28/python_reader--master:2"
 				}

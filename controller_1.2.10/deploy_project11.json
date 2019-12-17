@@ -16,8 +16,7 @@
 			}],
 			"persistence": {
 				"mount_path": "/app/data/"
-			},
-			"is_external": true
+			}
 		}
 
 	},

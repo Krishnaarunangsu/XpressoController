@@ -21,7 +21,7 @@
 
 	},
 	"pipelines": {
-		"fetch_data": {
+		"process_data": {
 			"components": {
 				"python_reader": {
 					"mount_path": "/app/data",

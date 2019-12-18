@@ -1,5 +1,5 @@
 {
-  "name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+  "name": "KUBEFLOW_PIPELINE_NAME_1",
   "description": "A pipeline with two sequential steps.",
   "components": [
     {

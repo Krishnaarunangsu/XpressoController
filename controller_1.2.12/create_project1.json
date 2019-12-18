@@ -41,7 +41,7 @@
 	],
 	"pipelines": [
 		{
-			"name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+			"name": "KUBEFLOW_PIPELINE_NAME_1",
 			"components": ["{{JOB_COMPONENT_NAME_1}}", "{{PIPELINE_JOB_COMPONENT_NAME_1}}"],
 			"declarative_json": "seq-pipeline-def.json"
 		}

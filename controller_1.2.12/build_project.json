@@ -1,14 +1,39 @@
 { 
-	"name": "pipeline_project28",
+	"name": "{{PROJECT_NAME}}",
 	"components":{
-		"service_reader": {
+		"{{SVC_COMPONENT_NAME_1}}": {
 			"branch": "master",
 			"description": "trial version - 1"
-			},
-		"python_reader": {
+		},
+		"{{JOB_COMPONENT_NAME_1}}": {
 			"branch": "master",
 			"description": "trial version - 1"
-			}
+		},
+		"{{DB_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{INFERENCE_SVC_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{PIPELINE_JOB_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{BD_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{BD_COMPONENT_NAME_2}}": {
+			"branch": "master",
+			"description": "trial version - 1"
 		}
-
+	},
+	"pipelines": {
+	   "{{BD_PIPELINE_NAME_1}}": {
+		  "branch":"master",
+		  "description": "build one"
+	   }
+	}
 }

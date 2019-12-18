@@ -1,10 +1,10 @@
 {
-	"name": "{{PROJECT_NAME}}",
+	"name": "{{pipeline_rahi_project11}}",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
-		"uid": "{{UID}}"
+		"uid": "{{reyaz35}}"
 	},
-	"developers": ["{{UID}}"],
+	"developers": ["{{reyaz19}}"],
 	"environments": ["DEV"],
 	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,

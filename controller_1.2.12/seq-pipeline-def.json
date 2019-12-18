@@ -1,82 +1,51 @@
 {
-  "name": "pipeline_seq_project11",
+  "name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
   "description": "A pipeline with two sequential steps.",
-  "main_func_params": {
-    "##dummyfileurl1##": "http://25.io/toau/audio/sample.txt",
-    "##dummyfileurl2##": "https://sample-videos.com/text/Sample-text-file-10kb.txt"
-  },
   "components": [
     {
-      "name": "data_fetch",
-      "xpresso_reference": "service_reader",
-      "description": "downloads text from given url",
-      "inputs": [
-        {
-            "name": "url",
-            "type": "LocalPath",
-            "description": "Local path of file"
+    "name": "{{JOB_COMPONENT_NAME_1}}",
+    "implementation": {
+      "container": {
+          "args": [
+            "data_pull",
+            "-in",
+            {
+                "inputValue": "inpath"
+            },
+            "-out",
+            {
+                "inputValue": "outpath"
+            },
+            "-r",
+            {
+                "inputValue": "repo_name"
+            },
+            "-b",
+            {
+                "inputValue": "branch_name"
+            },
+            "-c",
+            {
+                "inputValue": "commit"
+            },
+            "--type",
+            "files",
+            "-env",
+            "qa"
+          ]
         }
-        ],
-      "input_values": {
-        "##url##": "##dummyfileurl1##"
-      },
-      "outputs": [
-          {
-            "name": "out_file",
-            "type": "LocalPath",
-            "description": "Local path of file"
-        }
-      ],
-      "implementation": {
-        "container": {
-            "image": "python:3.7-alpine",
-            "command": ["wget"],
-            "args": [
-                {
-                    "inputValue": "url"
-                },
-                "-O",
-                "/outfile.txt"
-            ],
-            "fileOutputs": {
-                "out_file" : "/outfile.txt"
-            }
-        }
-        }
+      }
     },
     {
-      "name": "data_process",
-      "xpresso_reference": "python_reader",
-      "description": "echoes text",
-      "inputs": [
-          {
-            "name": "text1",
-            "type": "LocalPath",
-            "description": "string to display"
-        },
-          {
-            "name": "text2",
-            "type": "LocalPath",
-            "description": "string to display"
-        }
-      ],
-      "input_values": {"##text1##": "##data_fetch.output##",
-                        "##text2##": "##data_fetch.output##"},
+      "name": "{{PIPELINE_JOB_COMPONENT_NAME_1}}",
+      "description": "Pipeline job component",
       "implementation": {
         "container": {
-            "image": "library/bash:4.4.23",
-            "command": ["echo"],
-            "args": [
-                {
-                    "inputValue": "text1"
-                },
-                {
-                    "inputValue": "text2"
-                }
-            ]
+          "args": [
+          ]
         }
-        }
+      }
     }
-  ]
+  ],
+  "after_dependencies": {"{{PIPELINE_JOB_COMPONENT_NAME_1}}":["{{JOB_COMPONENT_NAME_1}}"]}
 }
-

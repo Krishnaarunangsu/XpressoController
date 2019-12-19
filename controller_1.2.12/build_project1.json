@@ -1,7 +1,7 @@
 {
-	"name": "pipeline_rahi_project12",
+	"name": "pipeline_rahi_project13",
 	"components":{
-		"JOB_COMPONENT_NAME_1": {
+		"job_component_name_1": {
 			"branch": "master",
 			"description": "trial version - 1"
 		}

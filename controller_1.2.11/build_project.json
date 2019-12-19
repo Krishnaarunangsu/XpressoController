@@ -1,22 +1,39 @@
 { 
-	"name": "project1",
+	"name": "{{PROJECT_NAME}}",
 	"components":{
-		"service_reader": {
+		"{{SVC_COMPONENT_NAME_1}}": {
 			"branch": "master",
 			"description": "trial version - 1"
-			},
-		"database_service": {
+		},
+		"{{JOB_COMPONENT_NAME_1}}": {
 			"branch": "master",
 			"description": "trial version - 1"
-			},
-		"crawler_service": {
+		},
+		"{{DB_COMPONENT_NAME_1}}": {
 			"branch": "master",
 			"description": "trial version - 1"
-			},
-		"ds_service_taxi": {
-			"branch": "develop",
+		},
+		"{{INFERENCE_SVC_COMPONENT_NAME_1}}": {
+			"branch": "master",
 			"description": "trial version - 1"
-			}
+		},
+		"{{PIPELINE_JOB_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{BD_COMPONENT_NAME_1}}": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"{{BD_COMPONENT_NAME_2}}": {
+			"branch": "master",
+			"description": "trial version - 1"
 		}
+	},
+	"pipelines": {
+	   "{{BD_PIPELINE_NAME_1}}": {
+		  "branch":"master",
+		  "description": "build one"
+	   }
 	}
 }

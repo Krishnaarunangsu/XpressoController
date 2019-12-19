@@ -1,64 +1,75 @@
 {
-	"name": "project1",
+	"name": "{{PROJECT_NAME}}",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
-		"uid": "admin1"
+		"uid": "{{UID}}"
 	},
-	"developers": ["admin1"],
+	"developers": ["{{UID}}"],
 	"environments": ["DEV"],
+	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
 		{
 			"type": "service",
 			"flavor": "python",
-			"name": "service_reader"
+			"name": "{{SVC_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		},
 		{
 			"type": "job",
 			"flavor": "python",
-			"name": "crawler_service"
+			"name": "{{JOB_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		},
 		{
 			"type": "database",
 			"flavor": "sql",
-			"name": "database_service"
+			"name": "{{DB_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		},
 		{
-			"type": "service",
+			"type": "inference_service",
 			"flavor": "python",
-			"name": "ds_service_taxi"
+			"name": "{{INFERENCE_SVC_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		},
 		{
-			"type": "job",
+			"type": "pipeline_job",
 			"flavor": "python",
-			"name": "ds_job_taxi"
+			"name": "{{PIPELINE_JOB_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		},
 		{
-           "name" : "no_stars",
-           "type" : "service",
-           "flavor" : "python"
-        },
-        {
-           "name" : "black_stars",
-           "type" : "service",
-           "flavor" : "python"
-        },
-        {
-           "name" : "red_stars",
-           "type" : "service",
-           "flavor" : "python"
-        }
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"{{BD_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
+		},
+		{
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"{{BD_COMPONENT_NAME_2}}",
+			"description": "Relevant description"
+		}
 	],
-	"pipelines": [{
-		"name": "tfx_taxi_cab_classification",
-		"components": ["ds_job_taxi", "ds_service_taxi"],
-		"flavor": "kubeflow",
-		"declarative_json": "/home/abzooba/seq-pipeline-def.json"
-	}],
+	"pipelines": [
+		{
+			"name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+			"components": ["{{JOB_COMPONENT_NAME_1}}", "{{PIPELINE_JOB_COMPONENT_NAME_1}}"],
+			"declarative_json": "seq-pipeline-def_{{PROJECT_NAME}}.json"
+		},{
+			"name":"{{BD_PIPELINE_NAME_1}}",
+			"components":[
+				"{{BD_COMPONENT_NAME_1}}",
+				"{{BD_COMPONENT_NAME_2}}"
+			],
+			"flavor":"pyspark"
+		}
+	],
 	"service_mesh": [
-        {
-          "name" : "reviews_service",
-          "components" : ["no_stars", "black_stars", "red_stars"]
-        }
-  ]
+		{
+			"name" : "{{SERVICE_MESH_NAME}}",
+			"components" : ["{{SVC_COMPONENT_NAME_1}}", "{{INFERENCE_SVC_COMPONENT_NAME_1}}"]
+		}
+	]
 }

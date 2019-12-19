@@ -1,16 +1,16 @@
 {
 	"experiments": [
 		{
-                	"experiment name" : "sample_experiment",
-                	"project name": "sample_project",
-                	"pipeline name": "sample_pipeline",
-                	"run_name": "sample_run"
+                	"experiment_name" : "{{EXPERIMENT_NAME_1}}",
+                	"project_name": "{{PROJECT_NAME}}",
+                	"pipeline_name": "{{PIPELINE_NAME}}",
+                	"run_name": "{{RUN_1}}"
 		},
 		{
-                	"experiment name" : "sample_experiment",
-                	"project name": "sample_project",
-                	"pipeline name": "sample_pipeline",
-                	"run_name": "sample_run_1"
+                	"experiment_name" : "{{EXPERIMENT_NAME_2}}",
+                	"project_name": "{{PROJECT_NAME}}",
+                	"pipeline_name": "{{PIPELINE_NAME}}",
+                	"run_name": "{{RUN_2}}"
 		}
 	]
 }

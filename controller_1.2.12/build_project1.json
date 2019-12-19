@@ -5,5 +5,11 @@
 			"branch": "master",
 			"description": "trial version - 1"
 		}
+	},
+	"pipelines": {
+	   "KUBEFLOW_PIPELINE_NAME_1": {
+		  "branch":"master",
+		  "description": "build one"
+	   }
 	}
 }

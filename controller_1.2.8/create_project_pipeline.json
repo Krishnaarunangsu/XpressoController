@@ -1,0 +1,49 @@
+{
+	"name": "data_pipeline_project_1",
+	"projectDescription": "Data Pipeline project created by xpresso platform",
+	"owner": {
+		"uid": "ASahu2"
+	},
+	"developers": ["ArunangsuSa2"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "data_ingestion"
+		},
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "data_processing"
+		},
+		{
+           "name" : "no_stars",
+           "type" : "service",
+           "flavor" : "python"
+        },
+        {
+           "name" : "black_stars",
+           "type" : "service",
+           "flavor" : "python"
+        },
+        {
+           "name" : "red_stars",
+           "type" : "service",
+           "flavor" : "python"
+        }
+	],
+	"pipelines": [{
+		"name": "data_pipeline_1",
+		"components": ["data_ingestion", "data_processing"],
+		"flavor": "kubeflow",
+		"declarative_json": "seq-pipeline-def.json"
+	}],
+	"service_mesh": [
+        {
+          "name" : "reviews_service",
+          "components" : ["no_stars", "black_stars", "red_stars"]
+        }
+  ]
+}

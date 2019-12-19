@@ -1,12 +1,12 @@
 {
-	"name": "project_np_python_1",
+	"name": "project_np_python_7",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "ASahu2"
 	},
 	"developers": ["ArunangsuSa2"],
 	"environments": ["DEV"],
-	"persistent_volume_size": 6,
+	"persistent_volume_size": 06,
 	"components": [
 		{
 			"type": "service",

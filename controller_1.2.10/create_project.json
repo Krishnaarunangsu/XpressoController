@@ -1,10 +1,10 @@
 {
-	"name": "pipeline_project16",
+	"name": "pipeline_project01",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
 	},
-	"developers": ["reyaz83"],
+	"developers": ["reyaz81"],
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [

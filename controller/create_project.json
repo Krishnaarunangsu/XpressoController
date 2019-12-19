@@ -2,9 +2,9 @@
 	"name" : "sequential_pipeline_project",
 	"projectDescription" : "Test project created by xpresso platform",
 	"owner" : {
-		"uid": "admin1"
+		"uid": "pipowpi"
 	},
-    "developers" : ["admin1"],
+    "developers" : ["pipowpi"],
 	"components" : [
 		{
 			"name" : "download_task",

@@ -1,5 +1,5 @@
 {
-	"name": "project_np_java_job_2",
+	"name": "project_np_java_job_9",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "ASahu2"
@@ -11,7 +11,15 @@
 		{
 			"type": "job",
 			"flavor": "java",
-			"name": "xpresso_job"
+			"name": "xpresso_job_new"
+		
+		},
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "xpresso_python_job"
 		}
+
+
   ]
 }

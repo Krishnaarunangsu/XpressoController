@@ -35,18 +35,7 @@
           ]
         }
       }
-    },
-    {
-      "name": "SVC_COMPONENT_NAME_1",
-      "description": "Pipeline job component",
-      "implementation": {
-        "container": {
-          "args": [
-          ]
-        }
-      }
     }
-  ],
-  "after_dependencies": {"SVC_COMPONENT_NAME_1":["JOB_COMPONENT_NAME_1"]}
+  ]
 }
 

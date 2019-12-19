@@ -1,34 +1,45 @@
 {
-	"name" : "naveensinha_spark_start_pause_test",
-	"projectDescription" : "Test project for spark",
-	"owner" : {
-		"uid": "naveensinha"
+	"name":"sample-pyspark-project",
+	"projectDescription":"Creates a sample project for pyspark ML pipeline",
+	"owner":{
+	   "uid":"naveen"
 	},
-  	"developers" : ["naveensinha"],
-	"bigdata_environments":["DEV"],
-	"persistent_volume_size": 6,
-	"components" : [
-		{
-			"type" : "job",
-			"flavor" : "pyspark",
-			"name" : "counter1"
-		},
-		{
-			"type" : "job",
-			"flavor" : "pyspark",
-			"name" : "counter2"
-		},
-		{
-			"type" : "job",
-			"flavor" : "pyspark",
-			"name" : "counter3"
-		}
+	"developers":[
+	   "naveen"
 	],
-	"pipelines" : [
-		{
-			"name" : "counter_pipeline",
-			"components" : ["counter1", "counter2", "counter3"],
-			"flavor": "pyspark"
-		}
+	"bigdata_environments":[
+	   "DEV"
+	],
+	"persistent_volume_size":2,
+	"components":[
+	   {
+		  "type":"job",
+		  "flavor":"pyspark",
+		  "name":"string_indexer",
+		  "description": "some description"
+	   },
+	   {
+		  "type":"job",
+		  "flavor":"pyspark",
+		  "name":"one_hot_encoder",
+		  "description": "some description"
+	   },
+	   {
+		  "type":"job",
+		  "flavor":"pyspark",
+		  "name":"vector_assembler",
+		  "description": "some description"
+	   }
+	],
+	"pipelines":[
+	   {
+		  "name":"feature_engg_and_classifier_pipeline",
+		  "components":[
+			 "string_indexer",
+			 "one_hot_encoder",
+			 "vector_assembler"
+		  ],
+		  "flavor":"pyspark"
+	   }
 	]
-}
+ }

@@ -1,0 +1,26 @@
+{
+	"name": "xpresso_pipeline_abz_1",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "ASahu2"
+	},
+	"developers": ["ASahu3"],
+	"environments": ["DEV"],
+	"bigdata_environments":["DEV"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "job_1",
+			"description": "Relevant description"
+		}
+	],
+	"pipelines": [
+		{
+			"name": "KUBEFLOW_PIPELINE_1",
+			"components": ["job_1"],
+			"declarative_json": "seq-pipeline-def_xpresso_pipeline_abz_1.json"
+		}
+	]
+}

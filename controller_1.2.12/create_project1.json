@@ -11,45 +11,21 @@
 		{
 			"type": "service",
 			"flavor": "python",
-			"name": "{{SVC_COMPONENT_NAME_1}}",
+			"name": "SVC_COMPONENT_NAME_1",
 			"description": "Relevant description"
 		},
 		{
 			"type": "job",
 			"flavor": "python",
-			"name": "{{JOB_COMPONENT_NAME_1}}",
-			"description": "Relevant description"
-		},
-		{
-			"type": "database",
-			"flavor": "sql",
-			"name": "{{DB_COMPONENT_NAME_1}}",
-			"description": "Relevant description"
-		},
-		{
-			"type": "inference_service",
-			"flavor": "python",
-			"name": "{{INFERENCE_SVC_COMPONENT_NAME_1}}",
-			"description": "Relevant description"
-		},
-		{
-			"type": "pipeline_job",
-			"flavor": "python",
-			"name": "{{PIPELINE_JOB_COMPONENT_NAME_1}}",
+			"name": "JOB_COMPONENT_NAME_1",
 			"description": "Relevant description"
 		}
-	],
+    ],
 	"pipelines": [
 		{
 			"name": "KUBEFLOW_PIPELINE_NAME_1",
-			"components": ["{{JOB_COMPONENT_NAME_1}}", "{{PIPELINE_JOB_COMPONENT_NAME_1}}"],
-			"declarative_json": "seq-pipeline-def.json"
-		}
-	],
-	"service_mesh": [
-		{
-			"name" : "{{SERVICE_MESH_NAME}}",
-			"components" : ["{{SVC_COMPONENT_NAME_1}}", "{{INFERENCE_SVC_COMPONENT_NAME_1}}"]
+			"components": ["SVC_COMPONENT_NAME_1","JOB_COMPONENT_NAME_1"],
+			"declarative_json": "seq-pipeline1-def.json"
 		}
 	]
 }

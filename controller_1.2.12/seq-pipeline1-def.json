@@ -3,7 +3,7 @@
   "description": "A pipeline with two sequential steps.",
   "components": [
     {
-    "name": "JOB_COMPONENT_NAME_1",
+    "name": "job_component_name_1",
     "implementation": {
       "container": {
           "args": [

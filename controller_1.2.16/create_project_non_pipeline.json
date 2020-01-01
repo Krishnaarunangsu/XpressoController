@@ -1,12 +1,12 @@
 {
-	"name": "{{PROJECT_NAME}}",
+	"name": "np_xpr_prj_1",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
-		"uid": "{{UID}}"
+		"uid": "ASahu2"
 	},
-	"developers": ["{{UID}}"],
-	"environments": ["DEV"],
-	"bigdata_environments":["DEV"],
+	"developers": ["ArunangsuSa2"],
+	"environments": ["DEV","QA"],
+	"bigdata_environments":["DEV", "QA"],
 	"persistent_volume_size": 6,
 	"components": [
 		{
@@ -55,7 +55,7 @@
 
 	"service_mesh": [
 		{
-			"name" : "{{SERVICE_MESH_NAME}}",
+			"name" : "service_mesh_1",
 			"components" : ["payment_service", "decision_tree_inference"]
 		}
 	]

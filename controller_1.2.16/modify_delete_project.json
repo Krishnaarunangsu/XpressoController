@@ -1,0 +1,12 @@
+{
+	"name": "{{PROJECT_NAME}}",
+	"action_type":"delete",
+	"components": [
+		{
+			"name":"temp_{{BD_COMPONENT_NAME_1}}"
+		},
+		{
+			"name":"temp_{{BD_COMPONENT_NAME_2}}"
+		}
+	]
+}

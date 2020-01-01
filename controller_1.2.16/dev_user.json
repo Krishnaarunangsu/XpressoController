@@ -1,0 +1,8 @@
+{
+    "uid": "test.user",
+    "firstName": "Test",
+    "lastName": "User",
+    "pwd": "1TestuserPassword",
+    "email": "test.user@xprctl.com",
+    "primaryRole": "DEV"
+}

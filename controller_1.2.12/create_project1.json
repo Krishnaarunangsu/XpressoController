@@ -5,7 +5,7 @@
 		"uid": "reyaz35"
 	},
 	"developers": ["reyaz19"],
-	"environments": ["DEV"],
+	"environments": ["QA"],
 	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components": [

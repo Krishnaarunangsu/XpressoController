@@ -1,0 +1,41 @@
+{
+  "name": "{{PROJECT_NAME}}",
+  "target_environment": "DEV",
+  "inference_service":{
+    "components":{
+            "{{INFERENCE_SVC_COMPONENT_NAME_1}}":{
+                "runs":[
+                    {
+                        "pipeline_name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+                        "pipeline_version": 1,
+                        "run_name": "{{RUN_1}}"
+                    },
+                    {
+                        "pipeline_name": "{{KUBEFLOW_PIPELINE_NAME_2}}",
+                        "pipeline_version": 1,
+                        "run_name": "{{RUN_2}}"
+                    }
+                ],
+                "ports": [{"name": "http", "port": 5000}],
+                "build_version": 1
+            },
+            "{{INFERENCE_SVC_COMPONENT_NAME_2}}":{
+                "runs":[
+                    {
+                        "pipeline_name": "{{KUBEFLOW_PIPELINE_NAME_3}}",
+                        "pipeline_version": 1,
+                        "run_name": "{{RUN_3}}"
+                    }
+                ],
+                "ports": [{"name": "http", "port": 5000}],
+                "build_version": 1
+            }
+        },
+    "mesh_name": "some_suitable_name",
+    "weights": {
+        "{{RUN_1}}": 50,
+        "{{RUN_2}}": 30,
+        "{{RUN_3}}": 20
+    }
+  }
+}

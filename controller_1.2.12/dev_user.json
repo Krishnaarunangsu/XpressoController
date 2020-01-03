@@ -1,8 +1,8 @@
 {
-    "uid": "testpipowpi",
+    "uid": "test.user",
     "firstName": "Test",
     "lastName": "User",
-    "pwd": "testuser",
+    "pwd": "1TestuserPassword",
     "email": "test.user@xprctl.com",
     "primaryRole": "DEV"
 }

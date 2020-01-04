@@ -31,7 +31,7 @@
 	],
 	"pipelines": [
 		{
-			"name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+			"name": "KUBEFLOW_PIPELINE_NAME_1",
 			"description": "Relevant description",
 			"components": ["job_component_name_1","svc_component_name_1", "pipeline_job_component_name_1"],
 			"after_dependencies": {"job_component_name_1": ["pipeline_job_component_name_1"]}

@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_rahi_project21",
+	"nmname": "pipeline_rahi_project21",
 	"components":{
 		"svc_component_name_1": {
 			"branch": "master",

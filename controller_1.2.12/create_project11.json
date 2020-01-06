@@ -1,5 +1,6 @@
 {
-	"name": "pipeline_rahi_project25",
+
+	"name": "pipeline_rahi_project26",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -17,8 +18,32 @@
 		},
       {
 			"type": "service",
-			"flavor": "sql",
+			"flavor": "python",
+			"name": "svc_component_name_1",
+			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "python",
 			"name": "pipeline_job_component_name_1",
+			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "python",
+			"name": "pipeline_job_component_name_2",
+			"description": "Relevant description"
+		},
+		{
+			"type": "inference_service",
+			"flavor": "python",
+			"name": "inference_svc_component_name_2",
+			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "python",
+			"name": "pipeline_job_component_name_3",
 			"description": "Relevant description"
 		}
 	],
@@ -27,6 +52,18 @@
 			"name": "KUBEFLOW_PIPELINE_NAME_1",
 			"description": "Relevant description",
 			"components": ["job_component_name_1"]
+
+		},
+		{
+			"name": "KUBEFLOW_PIPELINE_NAME_2",
+			"description": "Relevant description",
+			"components": ["pipeline_job_component_name_1","pipeline_job_component_name_2"]
+
+		},
+		{
+			"name": "KUBEFLOW_PIPELINE_NAME_3",
+			"description": "Relevant description",
+			"components": ["pipeline_job_component_name_3","inference_svc_component_name_2"]
 
 		}
 	]

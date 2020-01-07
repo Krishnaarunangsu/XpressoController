@@ -6,6 +6,9 @@
 	},
 	"developers": ["rahi41"],
 	"environments": ["DEV"],
-	"persistent_volume_size": 6
-	}
+	"persistent_volume_size": 6,
+	"components": [
+
+    ]
+}
 

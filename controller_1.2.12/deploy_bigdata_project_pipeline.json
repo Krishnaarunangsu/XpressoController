@@ -1,9 +1,0 @@
-{
-	"name" : "sample-pyspark-project",
-	"target_environment" : "DEV",
-	"pipelines" : {
-		"feature_generation_pipeline": {
-			"branch" : "master"
-		}
-	}
-}

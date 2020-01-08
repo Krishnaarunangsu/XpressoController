@@ -1,8 +1,8 @@
 {
-    "uid": "{{UID}}",
-    "firstName": "test",
-    "lastName": "user",
-    "pwd": "{{PWD}}",
-    "email": "{{EMAIL}}",
-    "primaryRole": "{{ROLE}}"
+    "uid": "ASahu6",
+    "firstName": "Arunangsu",
+    "lastName": "Sahu",
+    "pwd": "Abzooba@123",
+    "email": "arunangsu.sahu@abzooba.com",
+    "primaryRole": "ADMIN"
 }

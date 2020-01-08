@@ -1,0 +1,18 @@
+{
+	"same": "pipeline_rahi_project21",
+	"components":{
+		"svc_component_name_1": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"job_component_name_1": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"pipeline_job_component_name_1": {
+			"branch": "master",
+			"description": "trial version - 1",
+			"xpresso_dependencies": ["{{LIBRARY_COMPONENT_NAME_1}}"]
+		}
+	}
+}

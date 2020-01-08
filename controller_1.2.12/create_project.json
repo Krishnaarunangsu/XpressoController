@@ -34,6 +34,12 @@
 			"description": "Relevant description"
 		},
 		{
+			"type": "inference_service",
+			"flavor": "python",
+			"name": "{{INFERENCE_SVC_COMPONENT_NAME_2}}",
+			"description": "Relevant description"
+		},
+		{
 			"type": "pipeline_job",
 			"flavor": "python",
 			"name": "{{PIPELINE_JOB_COMPONENT_NAME_1}}",
@@ -50,20 +56,28 @@
 			"flavor":"pyspark",
 			"name":"{{BD_COMPONENT_NAME_2}}",
 			"description": "Relevant description"
+		},
+		{
+			"type":"library",
+			"flavor":"python",
+			"name":"{{LIBRARY_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
 		}
 	],
 	"pipelines": [
 		{
 			"name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+			"description": "Relevant description",
 			"components": ["{{JOB_COMPONENT_NAME_1}}", "{{PIPELINE_JOB_COMPONENT_NAME_1}}"],
-			"declarative_json": "seq-pipeline-def_{{PROJECT_NAME}}.json"
-		},{
+			"after_dependencies": {"{{JOB_COMPONENT_NAME_1}}": ["{{PIPELINE_JOB_COMPONENT_NAME_1}}"]}
+		},
+		{
 			"name":"{{BD_PIPELINE_NAME_1}}",
+			"description": "Relevant description",
 			"components":[
 				"{{BD_COMPONENT_NAME_1}}",
 				"{{BD_COMPONENT_NAME_2}}"
-			],
-			"flavor":"pyspark"
+			]
 		}
 	],
 	"service_mesh": [
@@ -73,3 +87,4 @@
 		}
 	]
 }
+

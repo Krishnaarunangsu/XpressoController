@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_rahi_project32",
+	"name": "pipeline_rahi_project33",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -23,7 +23,7 @@
     ],
 	"service_mesh": [
 		{
-			"name" : "{{SERVICE_MESH_NAME}}",
+			"name" : "@#987#@",
 			"components" : ["svc_component_name_1","svc_component_name_2"]
 		}
 	]

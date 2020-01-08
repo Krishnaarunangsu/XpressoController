@@ -23,5 +23,6 @@
 			"description": "Relevant description",
 			"components": ["abz_python_job"]
 			}
+		]
 		
 }

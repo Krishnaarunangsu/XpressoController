@@ -21,7 +21,7 @@
 		{
 			"name": "KUBEFLOW_PIPELINE_NAME_1",
 			"description": "Relevant description",
-			"components": ["abz_python_job"],
+			"components": ["abz_python_job"]
 			}
-		},
+		
 }

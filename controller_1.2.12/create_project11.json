@@ -1,6 +1,6 @@
 {
 
-	"name": "{{pipeline_rahi_project26}}",
+	"name": "pipeline_rahi_project35",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -32,12 +32,6 @@
 			"type": "pipeline_job",
 			"flavor": "python",
 			"name": "pipeline_job_component_name_2",
-			"description": "Relevant description"
-		},
-		{
-			"type": "inference_service",
-			"flavor": "python",
-			"name": "inference_svc_component_name_2",
 			"description": "Relevant description"
 		},
 		{

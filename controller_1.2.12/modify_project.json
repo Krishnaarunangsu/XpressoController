@@ -1,17 +1,21 @@
 {
 	"name": "pipeline_rahi_project32",
-	"components": [
+	
+"components": [
 		{
 			"type":"service",
 			"flavor":"python",
-			"name":"svc_component_name_3",
+			"name":"svc_component_name_4",
 			"description": "Relevant description"
 		}
 		],
 	"service_mesh": [
 		{
 			"name" : "{{SERVICE_MESH_NAME}}",
-			"components" : ["svc_component_name_3"]
+			"components" : ["svc_component_name_4"]
 		}
 	]
+
+
+		
 }

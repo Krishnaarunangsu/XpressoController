@@ -1,0 +1,13 @@
+{
+	"name": "non_pipeline_rahi_project12",
+	"components": {
+		"job_component_name_1": {
+			"branch": "master",
+			"description": "trial version - 1"
+		},
+		"svc_component_name_1": {
+			"branch": "master",
+			"description": "trial version - 1"
+		}
+	}
+}

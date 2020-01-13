@@ -16,21 +16,21 @@
                 },
                 {
                         "type" : "job",
-                        "flavor" : "pyspark",
-                        "name" : "vector_assembler",
+                        "flavor" : "python",
+                        "name" : "data_prep",
                         "description" : "some description"
                 },
                 {
-                        "type" : "pipeline_job",
+                        "type" : "job",
                         "flavor" : "pyspark",
-                        "name" : "Logistic_Regression",
+                        "name" : "vector_assembler",
                         "description" : "some description"
                 }
         ],
         "pipelines" : [
                 {
                         "name" : "feature_generation_pipeline",
-                        "components" : ["one_hot_encoder", "vector_assembler"]
+                        "components" : ["one_hot_encoder", "vector_assembler", "data_prep"]
                 }
         ]
 }

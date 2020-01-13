@@ -30,6 +30,7 @@
         "pipelines" : [
                 {
                         "name" : "feature_generation_pipeline",
+                        "description": "Hi Spark",
                         "components" : ["one_hot_encoder", "vector_assembler", "data_prep"]
                 }
         ]

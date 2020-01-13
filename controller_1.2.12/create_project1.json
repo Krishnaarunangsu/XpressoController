@@ -1,6 +1,6 @@
 {
 
-	"name": "pipeline_rahi_project34",
+	"name": "non_pipeline_rahi_project11",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -27,21 +27,7 @@
 			"name": "svc_component_name_2",
 			"description": "Relevant description"
 		}
-    ],
-	"pipelines": [
-		{
-			"name": "rahi_pipeline11",
-			"description": "Relevant description",
-			"components": ["job_component_name_1"]
-
-		}
-	],
-	"service_mesh" : [
-		{
-			"name" : "@#987#@",
-			"components" : ["svc_component_name_1","svc_component_name_2"]
-		}
-	]
+    ]
 }
 
 

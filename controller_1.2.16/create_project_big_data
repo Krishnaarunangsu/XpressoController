@@ -1,0 +1,36 @@
+{
+        "name" : "abzooba_spark_project",
+        "projectDescription" : "Creates a pyspark based project",
+        "owner" : {
+                "uid": "AASahu2"
+        },
+        "developers" : ["ASahu2"],
+        "bigdata_environments":["DEV"],
+        "persistent_volume_size": 2,
+        "components" : [
+                {
+                        "type" : "job",
+                        "flavor" : "pyspark",
+                        "name" : "one_hot_encoder",
+                        "description" : "some description"
+                },
+                {
+                        "type" : "job",
+                        "flavor" : "pyspark",
+                        "name" : "vector_assembler",
+                        "description" : "some description"
+                },
+                {
+                        "type" : "pipeline_job",
+                        "flavor" : "pyspark",
+                        "name" : "Logistic_Regression",
+                        "description" : "some description"
+                }
+        ],
+        "pipelines" : [
+                {
+                        "name" : "feature_generation_pipeline",
+                        "components" : ["one_hot_encoder", "vector_assembler"]
+                }
+        ]
+}

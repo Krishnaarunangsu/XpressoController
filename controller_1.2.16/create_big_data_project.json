@@ -2,7 +2,7 @@
         "name" : "abzooba_spark_project",
         "projectDescription" : "Creates a pyspark based project",
         "owner" : {
-                "uid": "AASahu2"
+                "uid": "ASahu2"
         },
         "developers" : ["ASahu2"],
         "bigdata_environments":["DEV"],

@@ -1,0 +1,14 @@
+{
+        "name" : "abzooba_spark_project_2",
+        "projectDescription" : "Creates a pyspark based project",
+        "owner" : {
+                "uid": "ASahu2"
+        },
+        "developers" : ["ASahu2"],
+        "bigdata_environments":["DEV"],
+        "persistent_volume_size": 2,
+        "components" : [
+        ],
+        "pipelines" : [
+        ]
+}

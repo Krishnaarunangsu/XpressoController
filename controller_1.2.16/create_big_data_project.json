@@ -1,0 +1,37 @@
+{
+        "name" : "abzooba_spark_project",
+        "projectDescription" : "Creates a pyspark based project",
+        "owner" : {
+                "uid": "AASahu2"
+        },
+        "developers" : ["ASahu2"],
+        "bigdata_environments":["DEV"],
+        "persistent_volume_size": 2,
+        "components" : [
+                {
+                        "type" : "job",
+                        "flavor" : "pyspark",
+                        "name" : "one_hot_encoder",
+                        "description" : "some description"
+                },
+                {
+                        "type" : "job",
+                        "flavor" : "python",
+                        "name" : "data_prep",
+                        "description" : "some description"
+                },
+                {
+                        "type" : "job",
+                        "flavor" : "pyspark",
+                        "name" : "vector_assembler",
+                        "description" : "some description"
+                }
+        ],
+        "pipelines" : [
+                {
+                        "name" : "feature_generation_pipeline",
+                        "description": "Hi Spark",
+                        "components" : ["one_hot_encoder", "vector_assembler", "data_prep"]
+                }
+        ]
+}

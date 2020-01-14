@@ -1,33 +1,15 @@
 {
-
-	"name": "non_pipeline_rahi_project12",
+	"name": "pipeline_rahi_project41",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
 	},
 	"developers": ["rahi41"],
 	"environments": ["DEV"],
-	"persistent_volume_size": 6,
-	"components": [
-		{
-			"type": "job",
-			"flavor": "python",
-			"name": "job_component_name_1",
-			"description": "Relevant description"
-		},
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "svc_component_name_1",
-			"description": "Relevant description"
-		},
-      {
-			"type": "service",
-			"flavor": "python",
-			"name": "svc_component_name_2",
-			"description": "Relevant description"
-		}
-    ]
+	"persistent_volume_size": 6
+
 }
+
+
 
 

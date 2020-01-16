@@ -1,0 +1,11 @@
+{
+	"name": "{{ PROJECT_NAME} }",
+	"action_type":"delete",
+	"components": [{
+			"name": "{{ SVC_COMPONENT_NAME_1 }}"
+		},
+        {
+			"name": "{{ SVC_COMPONENT_NAME_2 }}"
+		}
+	]
+}

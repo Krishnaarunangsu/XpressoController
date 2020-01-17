@@ -1,40 +1,14 @@
 {
-	"name": "pipeline_rahi_project51",
-	"projectDescription": "Test project created by xpresso platform",
+	"name": "pipeline_rahi_project52",
+        "projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
 	},
 	"developers": ["rahi41"],
 	"environments": ["DEV"],
-	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
-      {
-			"type": "job",
-			"flavor": "python",
-			"name": "job_component_name_1",
-			"description": "Relevant description"
-		},
-      {
-			"type": "service",
-			"flavor": "python",
-			"name": "svc_component_name_1",
-			"description": "Relevant description"
-		}
-	],
-	"pipelines": [
-		{
-			"name": "KUBEFLOW_PIPELINE_NAME_1",
-			"description": "Relevant description",
-			"components": ["job_component_name_1"]
-
-		}
-	],
-	"service_mesh": [
-		{
-
-			"name" : "service_mesh_add",
-			"components" : ["svc_component_name_1"]
-		}
+		
 	]
+	
 }

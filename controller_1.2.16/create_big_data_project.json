@@ -1,5 +1,5 @@
 {
-        "name" : "abzooba_spark_project",
+        "name" : "abzooba_spark_project_5",
         "projectDescription" : "Creates a pyspark based project",
         "owner" : {
                 "uid": "ASahu2"
@@ -16,7 +16,7 @@
                 },
                 {
                         "type" : "job",
-                        "flavor" : "python",
+                        "flavor" : "pyspark",
                         "name" : "data_prep",
                         "description" : "some description"
                 },

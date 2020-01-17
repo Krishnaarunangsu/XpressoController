@@ -1,0 +1,17 @@
+{
+	"name": "{{PROJECT_NAME}}",
+	"components": [
+		{
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"temp_{{BD_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
+		},
+		{
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"temp_{{BD_COMPONENT_NAME_2}}",
+			"description": "Relevant description"
+		}
+	]
+}

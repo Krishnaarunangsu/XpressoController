@@ -1,0 +1,5 @@
+{
+	"name": "project_name",
+	"pipeline_name": "sample_pipeline",
+	"deploy_version_id": 2
+}

@@ -1,5 +1,5 @@
 {
-	"name": "abzpipeline_2",
+	"name": "abzpipeline_5",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "ASahu2"
@@ -15,13 +15,19 @@
 			"flavor": "python",
 			"name": "abz_python_job",
 			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "python",
+			"name": "abz_python_pipeline_job",
+			"description": "Abzooba Pipeline job"
 		}
 	],
 	"pipelines": [
 		{
 			"name": "KUBEFLOW_PIPELINE_NAME_1",
 			"description": "Relevant description",
-			"components": ["abz_python_job"]
+			"components": ["abz_python_job", "abz_python_pipeline_job"]
 			}
 		]
 		

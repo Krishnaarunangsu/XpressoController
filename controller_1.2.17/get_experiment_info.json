@@ -1,0 +1,6 @@
+{
+		"pipeline_version": 1,
+		"project_name": "{{PROJECT_NAME}}",
+		"pipeline_name": "{{KUBEFLOW_PIPELINE_NAME_1}}",
+		"run_name": "{{RUN}}"
+}

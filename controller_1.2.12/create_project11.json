@@ -1,6 +1,6 @@
 {
 
-	"name": "pipeline_rahi_project35",
+	"name": "pipeline_rahi_project51",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
@@ -21,24 +21,6 @@
 			"flavor": "python",
 			"name": "svc_component_name_1",
 			"description": "Relevant description"
-		},
-		{
-			"type": "pipeline_job",
-			"flavor": "python",
-			"name": "pipeline_job_component_name_1",
-			"description": "Relevant description"
-		},
-		{
-			"type": "pipeline_job",
-			"flavor": "python",
-			"name": "pipeline_job_component_name_2",
-			"description": "Relevant description"
-		},
-		{
-			"type": "pipeline_job",
-			"flavor": "python",
-			"name": "pipeline_job_component_name_3",
-			"description": "Relevant description"
 		}
 	],
 	"pipelines": [
@@ -47,20 +29,13 @@
 			"description": "Relevant description",
 			"components": ["job_component_name_1"]
 
-		},
-		{
-			"name": "KUBEFLOW_PIPELINE_NAME_2",
-			"description": "Relevant description",
-			"components": ["pipeline_job_component_name_1","pipeline_job_component_name_2"]
-
 		}
 	],
 	"service_mesh": [
 		{
 
-			"name" : "SERVICE_MESH_NAME",
+			"name" : "457#@455",
 			"components" : ["svc_component_name_1"]
 		}
 	]
 }
-

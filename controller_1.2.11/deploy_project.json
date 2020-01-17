@@ -5,7 +5,7 @@
     "{{SVC_COMPONENT_NAME_1}}": {
       "replicas": 2,
       "build_version": 1,
-      "environment": [],
+      "environment_parameters": [],
       "ports": [{
         "name": "default",
         "port": 5000
@@ -17,7 +17,7 @@
     "{{DB_COMPONENT_NAME_1}}": {
       "replicas": 1,
       "custom_docker_image": "mysql:5.7",
-      "environment": [{
+      "environment_parameters": [{
         "name": "MYSQL_ROOT_PASSWORD",
         "value": "password@123"
       }],
@@ -29,10 +29,11 @@
     "{{JOB_COMPONENT_NAME_1}}": {
       "replicas": 2,
       "build_version": 1,
-      "environment": [],
+      "environment_parameters": [],
       "type": "job",
       "cron_schedule": "",
-      "commands": []
+      "command": ["run.sh"],
+      "args": ["--path", "/files"]
     }
   },
   "pipelines": {
@@ -44,7 +45,10 @@
         },
         "{{PIPELINE_JOB_COMPONENT_NAME_1}}": {
           "build_version": 1,
-          "mount_path": "/data"
+          "mount_path": "/data",
+          "command": ["run.sh"],
+          "args": ["--path", {"inputValue": "path"}, "--branch", "master"]
+
         }
       }
     }

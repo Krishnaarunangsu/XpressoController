@@ -1,5 +1,4 @@
 {
-
 	"name": "pipeline_rahi_project51",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
@@ -34,7 +33,7 @@
 	"service_mesh": [
 		{
 
-			"name" : "457#@455",
+			"name" : "service_mesh_add",
 			"components" : ["svc_component_name_1"]
 		}
 	]

@@ -1,8 +1,8 @@
 {
-        "name" : "abzooba_spark_project",
+        "name" : "abzooba_spark_project_5",
         "projectDescription" : "Creates a pyspark based project",
         "owner" : {
-                "uid": "AASahu2"
+                "uid": "ASahu2"
         },
         "developers" : ["ASahu2"],
         "bigdata_environments":["DEV"],
@@ -16,7 +16,7 @@
                 },
                 {
                         "type" : "job",
-                        "flavor" : "python",
+                        "flavor" : "pyspark",
                         "name" : "data_prep",
                         "description" : "some description"
                 },

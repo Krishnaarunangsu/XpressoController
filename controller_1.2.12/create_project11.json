@@ -1,7 +1,6 @@
 {
-
 	"name": "pipeline_rahi_project52",
-	"projectDescription": "Test project created by xpresso platform",
+        "projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"
 	},
@@ -9,6 +8,7 @@
 	"environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
-
+		
 	]
+	
 }

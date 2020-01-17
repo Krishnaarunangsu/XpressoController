@@ -13,7 +13,7 @@
 		{
 			"type": "pipeline_job",
 			"flavor": "python",
-			"name": "abz_python_job_new",
+			"name": "abz_python_job",
 			"description": "It is a python job"
 		}
 	]

@@ -1,21 +1,17 @@
 {
-	"name": "pipeline_rahi_project32",
-	
-"components": [
+	"name": "{{PROJECT_NAME}}",
+	"components": [
 		{
-			"type":"service",
-			"flavor":"python",
-			"name":"svc_component_name_4",
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"temp_{{BD_COMPONENT_NAME_1}}",
+			"description": "Relevant description"
+		},
+		{
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"temp_{{BD_COMPONENT_NAME_2}}",
 			"description": "Relevant description"
 		}
-		],
-	"service_mesh": [
-		{
-			"name" : "{{SERVICE_MESH_NAME}}",
-			"components" : ["svc_component_name_4"]
-		}
 	]
-
-
-		
 }

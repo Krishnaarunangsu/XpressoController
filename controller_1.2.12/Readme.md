@@ -8,4 +8,4 @@ Before using these json files, please make sure you have gone  through the [Cont
 Few points to note:
 
 - These json simply provides the structure of the json. It might not work directly. User will need to replace the value of the keys.
-- User must need to update the value of terms within 2 curly braces **{{<term>}}**. These terms must be replaced with appropriate values
+- User must need to update the value of terms with 2 curly braces **{{<term>}}**. These terms(including the 2 curly braces) must be replaced with appropriate values

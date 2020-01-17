@@ -49,4 +49,3 @@
   ],
   "after_dependencies": {"{{PIPELINE_JOB_COMPONENT_NAME_1}}":["{{JOB_COMPONENT_NAME_1}}"]}
 }
-

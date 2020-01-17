@@ -1,4 +1,4 @@
 {
-  "name": "non_pipeline_rahi_project11",
+  "name": "{{PROJECT_NAME}}",
   "target_environment": "DEV"
 }

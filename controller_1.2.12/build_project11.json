@@ -1,13 +1,19 @@
 {
-  "name": "pipeline_rahi_project51",
+  "name": "pipeline_rahi_project54",
   "components": {
-    "svc_component_name_1": {
-      "branch": "master",
-      "description": "trial version - 1"
-    },
     "job_component_name_1": {
       "branch": "master",
       "description": "trial version - 1"
+    },
+    "pipeline_job_component_name_1": {
+      "branch": "master",
+      "description": "trial version - 1"
     }
-  }
+  },
+	"pipelines": {
+	   "Kubeflow_pipeline": {
+		  "branch":"master",
+		  "description": "build one"
+	   }
+	}
 }

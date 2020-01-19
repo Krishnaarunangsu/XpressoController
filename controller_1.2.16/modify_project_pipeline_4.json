@@ -1,0 +1,13 @@
+{
+	"name": "abzpipeline_7",
+	"projectDescription": "Test project created by xpresso platform",
+	"pipelines": [
+		{
+			"name": "BigData_PIPELINE_NAME_1",
+			"description": "Relevant description",
+			"components": ["abz_python_job"]
+			}
+		]
+	]
+		
+}

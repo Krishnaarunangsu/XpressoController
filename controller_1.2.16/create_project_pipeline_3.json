@@ -1,0 +1,12 @@
+{
+	"name": "abzpipeline_6",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "ASahu2"
+	},
+	"developers": ["ArunangsuSa2"],
+	"persistent_volume_size": 6,
+	"components": [
+	]
+
+}

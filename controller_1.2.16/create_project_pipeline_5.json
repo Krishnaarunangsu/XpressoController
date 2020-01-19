@@ -1,5 +1,5 @@
 {
-	"name": "abzpipeline_7",
+	"name": "abzpipeline_8",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "ASahu2"
@@ -14,6 +14,12 @@
 			"name": "abz_python_job",
 			"description": "Relevant description"
 		}
-	]
+	],
+	"pipelines": [
+		{
+			"name": "BigData_PIPELINE_NAME_1",
+			"components": ["abz_python_job"]
+			}
+		]
 		
 }

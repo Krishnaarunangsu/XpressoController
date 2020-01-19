@@ -5,7 +5,7 @@
 		"uid": "ASahu2"
 	},
 	"developers": ["ArunangsuSa2"],
-	"big_data_environment": ["DEV"],
+	"bigdata_environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
 		{

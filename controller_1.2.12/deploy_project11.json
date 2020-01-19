@@ -1,5 +1,5 @@
 {
-  "name": "non_pipeline_rahi_project51",
+  "name": "pipeline_rahi_project51",
   "target_environment": "DEV",
   "components": {
     "svc_component_name_1": {

@@ -5,27 +5,25 @@
 		"uid": "reyaz35"},
 	"developers": ["rahi41"],
 	"environments": ["DEV"],
-	"bigdata_environments": ["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
 		{
-			"type": "job",
+			"type": "service",
 			"flavor": "python",
-			"name": "job_component_name_1",
+			"name": "Service_component_1",
 			"description": "Relevant description"
 		},
 		{
-			"type": "pipeline_job",
+			"type": "inference_service",
 			"flavor": "python",
-			"name": "pipeline_job_component_name_1",
+			"name": "Inference_service_1",
 			"description": "Relevant description"
 		}
 	],
-	"pipelines": [
+	"service_mesh": [
 		{
-			"name": "Kubeflow_pipeline",
-			"description": "Relevant description",
-			"components": ["job_component_name_1","pipeline_job_component_name_1"]
+			"name" : "Service_Mesh1",
+			"components" : ["Service_component_1", "Inference_service_1"]
 		}
 	]
 }

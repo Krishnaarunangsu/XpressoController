@@ -1,6 +1,4 @@
 {
 	"name": "rahi_project11",
-	"environments": ["DEV"],
-	"bigdata_environments":["DEV"]
-
+	"environments": ["DEV"]
 }

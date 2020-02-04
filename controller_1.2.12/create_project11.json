@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_rahi_project58"
+	"name": "pipeline_rahi_project62",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"},
@@ -24,14 +24,6 @@
 			"flavor": "python",
 			"name": "Component3",
 			"description": "Relevant description"
-		}
-	],
-	"pipelines": [
-		{
-			"name": "KubeflowPipeline",
-			"description": "Relevant description",
-			"components": ["Component1", "Component2","Component3"],
-			"after_dependencies": {"Component2": ["Component2","Component2"]}
 		}
 	]
 }

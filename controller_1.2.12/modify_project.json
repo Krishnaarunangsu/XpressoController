@@ -1,18 +1,6 @@
 {
-	"name": "pipeline_rahi_project51",
-	"components": [
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "svc_component_name_2",
-			"description": "Relevant description"
-		}
-	],
-	"service_mesh": [
-		{
+	"name": "rahi_project11",
+	"environments": ["DEV"],
+	"bigdata_environments":["DEV"]
 
-			"name" : "service_mesh_add",
-			"components" : ["svc_component_name_2"]
-		}
-	]
 }

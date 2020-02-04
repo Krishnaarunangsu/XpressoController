@@ -12,6 +12,12 @@
 			"flavor": "pyspark",
 			"name": "job_component1",
 			"description": "Relevant description"
+		},
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "job_component2",
+			"description": "Relevant description"
 		}
 
 	]

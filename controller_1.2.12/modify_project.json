@@ -1,6 +1,19 @@
 {
-	"name": "rahi_project11",
-	"environments": ["DEV"]
+	"name": "pipeline_rahi_project72",
+	"components": [
+	{
+			"type": "pipeline_job",
+			"flavor": "python",
+			"name": "Component1",
+			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "pyspark",
+			"name": "BigdataComponent1",
+			"description": "Relevant description"
+		}
+	]
 }
 
 

@@ -31,7 +31,7 @@
 			"name": "KubeflowPipeline",
 			"description": "Relevant description",
 			"components": ["Component1", "Component2","Component3"],
-			"after_dependencies": {"Component2": ["Component2","Component3"]}
+			"after_dependencies": {"Component2": ["Component1","Component1"]}
 		}
 	]
 }

@@ -1,6 +1,5 @@
 {
-	"name": "pipeline_rahi_project72",
-	"projectDescription": "Test project created by xpresso platform",
+	"name": "pipeline_rahi_project74",
 	"owner": {
 		"uid": "reyaz35"},
 	"developers": ["rahi41"],
@@ -12,6 +11,7 @@
 			"flavor": "python",
 			"name": "Component1",
 			"description": "Relevant description"
+  }
 	]
 
 }

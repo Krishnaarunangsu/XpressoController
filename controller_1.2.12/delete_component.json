@@ -2,7 +2,7 @@
 	"name": "pipeline_rahi_project73",
 	"action_type":"delete",
 	"components": [{
-			"name":"Component2"
+			"name":"BigdataComponent1"
 		}
 	]
 }

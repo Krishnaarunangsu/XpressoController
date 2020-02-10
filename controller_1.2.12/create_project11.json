@@ -1,10 +1,11 @@
 {
-	"name": "pipeline_rahi_project72",
+	"name": "pipeline_rahi_project75",
 	"projectDescription": "Test project created by xpresso platform",
 	"owner": {
 		"uid": "reyaz35"},
 	"developers": ["rahi41"],
 	"environments": ["DEV"],
+	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components": [
 		{
@@ -12,6 +13,13 @@
 			"flavor": "python",
 			"name": "Component1",
 			"description": "Relevant description"
+		},
+		{
+			"type": "job",
+			"flavor": "pyspark",
+			"name": "BigDataComponent1",
+			"description": "Relevant description"
+		}
 	]
 
 }

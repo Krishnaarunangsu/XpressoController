@@ -1,11 +1,8 @@
 {
-	"name": "{{ PROJECT_NAME} }",
+	"name": "pipeline_rahi_project73",
 	"action_type":"delete",
 	"components": [{
-			"name": "{{ SVC_COMPONENT_NAME_1 }}"
-		},
-        {
-			"name": "{{ SVC_COMPONENT_NAME_2 }}"
+			"name":"Component2"
 		}
 	]
 }

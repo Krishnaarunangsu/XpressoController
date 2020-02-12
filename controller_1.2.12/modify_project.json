@@ -1,19 +1,28 @@
 {
-	"name": "pipeline_rahi_project72",
-	"components": [
-	{
-			"type": "pipeline_job",
-			"flavor": "python",
-			"name": "Component1",
-			"description": "Relevant description"
-		},
-		{
-			"type": "pipeline_job",
-			"flavor": "pyspark",
-			"name": "BigdataComponent1",
-			"description": "Relevant description"
-		}
-	]
+    "name": "reyaz_rahi21",
+    "components":[
+    {
+      "type": "pipeline_job",
+      "flavor": "python",
+      "name": "data_fetch",
+      "description": "This is an data fetch xpresso marketplace component."
+    },
+    {
+    "name": "predict_ml",
+    "type": "pipeline_job",
+    "flavor": "python",
+    "description": "Model_Prediction"
+    }
+  ],
+"pipelines":[
+        {
+            "name": "mlr_pipeline",
+            "description": "MLR Training Pipeline",
+            "components": ["data_fetch", "prdict_ml"],
+            "after_dependencies": {
+                "predict_ml": ["data_fetch"]
+            }
+        }
+    ]
 }
-
 

@@ -19,7 +19,7 @@
         {
             "name": "mlr_pipeline",
             "description": "MLR Training Pipeline",
-            "components": ["data_fetch", "prdict_ml"],
+            "components": ["data_fetch", "predict_ml"],
             "after_dependencies": {
                 "predict_ml": ["data_fetch"]
             }

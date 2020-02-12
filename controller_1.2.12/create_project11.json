@@ -13,7 +13,7 @@
 			"flavor": "python",
 			"name": "Component1",
 			"description": "Relevant description"
-		},
+	},
 		{
 			"type": "job",
 			"flavor": "pyspark",

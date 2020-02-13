@@ -5,7 +5,7 @@
 		"uid": "ASahu2"},
 	"developers": ["ASahu2"],
 	"bigdata_environments":["DEV"],
-	"persistent_volume_size": 6,
+	"persistent_volume_size": 4,
 	"components": [
 		{
 			"type": "job",

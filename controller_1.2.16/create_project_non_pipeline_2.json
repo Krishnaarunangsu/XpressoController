@@ -1,0 +1,58 @@
+{
+	"name": "mp_xpr_prj_1",
+	"projectDescription": "Test project created by xpresso platform",
+	"owner": {
+		"uid": "ASahu2"
+	},
+	"developers": ["ArunangsuSa2"],
+	"environments": ["DEV","QA"],
+	"bigdata_environments":["DEV", "QA"],
+	"persistent_volume_size": 6,
+	"components": [
+		{
+			"type": "service",
+			"flavor": "python",
+			"name": "payment_service",
+			"description": "Relevant description"
+		},
+		{
+			"type": "job",
+			"flavor": "python",
+			"name": "data_ingestion",
+			"description": "Relevant description"
+		},
+		{
+			"type": "database",
+			"flavor": "sql",
+			"name": "balance_update}",
+			"description": "Relevant description"
+		},
+		{
+			"type": "inference_service",
+			"flavor": "python",
+			"name": "decision_tree_inference",
+			"description": "Relevant description"
+		},
+		{
+			"type": "pipeline_job",
+			"flavor": "python",
+			"name": "data_pipeline",
+			"description": "Relevant description"
+		},
+		{
+			"type":"job",
+			"flavor":"pyspark",
+			"name":"big_data_pipeline",
+			"description": "Relevant description"
+		},
+		{
+			"type":"library",
+			"flavor":"python",
+			"name":"library_component_1",
+			"description": "Relevant description"
+		}
+	
+
+	
+	]
+	}

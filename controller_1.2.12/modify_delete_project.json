@@ -1,12 +1,5 @@
 {
-	"name": "{{PROJECT_NAME}}",
+	"name": "reyaz_rahi32",
 	"action_type":"delete",
-	"components": [
-		{
-			"name":"temp_{{BD_COMPONENT_NAME_1}}"
-		},
-		{
-			"name":"temp_{{BD_COMPONENT_NAME_2}}"
-		}
-	]
+	"environments" : ["DEV"]
 }

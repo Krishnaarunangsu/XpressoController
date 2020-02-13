@@ -4,6 +4,7 @@
 	"owner": {
 		"uid": "reyaz35"},
 	"developers": ["rahi41"],
+	"environments": ["DEV"],
 	"bigdata_environments":["DEV"],
 	"persistent_volume_size": 6,
 	"components": [

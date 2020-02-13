@@ -1,5 +1,5 @@
 {
-	"name": "reyaz_rahi32",
+	"name": "pipeline_rahi_project82",
 	"action_type":"delete",
-	"environments" : ["DEV"]
+	"bigdata_environments":["DEV"]
 }

@@ -1,17 +1,21 @@
 {
-  "name": "pipeline_rahi_project54",
+  "name": "pipeline_rahi_project83",
   "components": {
-    "job_component_name_1": {
+    "Comp1": {
       "branch": "master",
       "description": "trial version - 1"
     },
-    "pipeline_job_component_name_1": {
+    "Comp2": {
+      "branch": "master",
+      "description": "trial version - 1"
+    },
+    "Comp3": {
       "branch": "master",
       "description": "trial version - 1"
     }
   },
 	"pipelines": {
-	   "Kubeflow_pipeline": {
+	   "BigData_pipeline83": {
 		  "branch":"master",
 		  "description": "build one"
 	   }

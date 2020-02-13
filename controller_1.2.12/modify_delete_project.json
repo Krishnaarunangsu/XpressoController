@@ -1,12 +1,5 @@
 {
-	"name": "{{PROJECT_NAME}}",
+	"name": "pipeline_rahi_project82",
 	"action_type":"delete",
-	"components": [
-		{
-			"name":"temp_{{BD_COMPONENT_NAME_1}}"
-		},
-		{
-			"name":"temp_{{BD_COMPONENT_NAME_2}}"
-		}
-	]
+	"bigdata_environments":["DEV"]
 }

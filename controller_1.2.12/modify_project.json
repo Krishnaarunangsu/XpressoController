@@ -1,18 +1,31 @@
 {
-	"name": "pipeline_rahi_project51",
-	"components": [
-		{
-			"type": "service",
-			"flavor": "python",
-			"name": "svc_component_name_2",
-			"description": "Relevant description"
-		}
-	],
-	"service_mesh": [
-		{
+    "name": "reyaz_rahi21",
+    "components":[
+    {
+      "type": "pipeline_job",
+      "flavor": "python",
+      "name": "data_fetch",
+      "description": "This is an data fetch xpresso marketplace component."
+    },
+    {
+    "name": "predict_ml",
+    "type": "pipeline_job",
+    "flavor": "python",
+    "description": "Model_Prediction"
+    }
+  ],
 
-			"name" : "service_mesh_add",
-			"components" : ["svc_component_name_2"]
-		}
-	]
+"pipelines":[
+        {
+            "name": "mlr_pipeline",
+            "description": "MLR Training Pipeline",
+            "components": ["data_fetch", "predict_ml"],
+            "after_dependencies": {
+                "predict_ml": ["data_fetch"]
+            }
+        }
+    ]
 }
+
+
+

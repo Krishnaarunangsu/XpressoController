@@ -17,9 +17,9 @@
 			"flavor": "pyspark",
 			"name": "BigDataComponent2",
 			"description": "Relevant description"
+
 		}
 	]
-
 }
 
 

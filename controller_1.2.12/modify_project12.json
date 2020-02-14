@@ -1,0 +1,36 @@
+{
+  "name":"pipeline_demo_project21",
+"owner":{
+   "uid":"hardik11"
+},
+"persistent_volume_size":6,
+"projectDescription":"Test project created by xpresso platform",
+"developers":[
+   "hardik12"
+],
+"environments":[
+   "DEV"
+],
+"bigdata_environments":[
+   "DEV"
+],
+"components":[],
+"pipelines":[
+   {
+      "name":"newpipe",
+      "description":"newpipe1",
+      "components":[
+         "BigDataComponent2",
+         "BigDataComponent1"
+      ],
+      "after_dependencies":{
+         "BigDataComponent1":[
+            "BigDataComponent2"
+         ]
+      }
+   }
+],
+"service_mesh":[
+
+]
+}

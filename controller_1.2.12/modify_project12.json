@@ -5,9 +5,7 @@
 },
 "persistent_volume_size":6,
 "projectDescription":"Test project created by xpresso platform",
-"developers":[
-   "hardik12"
-],
+"developers":["hardik12"],
 "environments":[
    "DEV"
 ],
@@ -30,7 +28,5 @@
       }
    }
 ],
-"service_mesh":[
-
-]
+"service_mesh":[]
 }

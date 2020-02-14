@@ -1,23 +1,19 @@
 {
-  "name": "pipeline_rahi_project83",
+  "name": "reyaz_rahi21",
   "components": {
-    "Comp1": {
+    "data_fetch": {
       "branch": "master",
-      "description": "trial version - 1"
+      "description": "trial version - 1",
+      "xpresso_dependencies": [
+        "xpresso_ai"
+      ]
     },
-    "Comp2": {
+    "predict_ml": {
       "branch": "master",
-      "description": "trial version - 1"
-    },
-    "Comp3": {
-      "branch": "master",
-      "description": "trial version - 1"
+      "description": "trial version - 1",
+      "xpresso_dependencies": [
+        "xpresso_ai"
+      ]
     }
-  },
-	"pipelines": {
-	   "BigData_pipeline83": {
-		  "branch":"master",
-		  "description": "build one"
-	   }
-	}
+  }
 }

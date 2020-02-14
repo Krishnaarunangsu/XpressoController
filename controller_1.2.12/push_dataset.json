@@ -1,7 +1,7 @@
 {
-  "repo_name": "testrepo",
-  "branch_name": "tester",
-  "description": "Testing push dataset",
-  "path": "samples/",
-  "dataset_name": "test_set"
+  "repo_name": "reyaz_rahi21",
+  "branch_name": "demo_branch",
+  "description": "Push korea dataset",
+  "path": "/home/abzooba/Desktop/Dataset/korea_data.xlsx",
+  "dataset_name": "stock_data"
 }

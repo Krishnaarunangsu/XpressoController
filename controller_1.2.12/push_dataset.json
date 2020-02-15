@@ -2,6 +2,6 @@
   "repo_name": "reyaz_rahi21",
   "branch_name": "demo_branch",
   "description": "Push korea dataset",
-  "path": "/home/abzooba/Desktop/Dataset/korea_data.xlsx",
+  "path": "Dataset/korea_data.xlsx",
   "dataset_name": "stock_data"
 }

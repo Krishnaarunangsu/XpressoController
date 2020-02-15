@@ -1,0 +1,28 @@
+{
+	"name": "pipeline_experiments_demo_1",
+	"target_environment": "DEV",
+	"pipelines": {
+		"dnn_training_pipeline": {
+		"components": {
+        "data_fetch": {
+          "mount_path": "/data",
+          "custom_docker_image": "dockerregistrysb.xpresso.ai/library/xpresso_version:2.0.0",
+          "command": [],
+          "args": []
+        },
+        "dnn_data_prep": {
+          "build_version": 1,
+          "mount_path": "/data",
+          "command": [],
+          "args": []
+        },
+        "dnn_train": {
+          "build_version": 1,
+          "mount_path": "/data",
+          "command": [],
+          "args": []
+        }
+      }
+    }
+  }
+}

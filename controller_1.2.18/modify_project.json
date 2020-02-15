@@ -1,0 +1,40 @@
+{
+    "name": "pipeline_experiments_demo_1",
+    "components":[
+      {
+        "type": "pipeline_job",
+        "flavor": "python",
+        "name": "data_fetch",
+        "description": "This is an data fetch xpresso marketplace component."
+      },
+      {
+		"name": "dnn_data_prep",
+		"type": "pipeline_job",
+		"flavor": "python",
+        "description": "DNN Data Preparation"
+      },
+      {
+        "name": "dnn_train",
+		"type": "pipeline_job",
+		"flavor": "python",
+        "description": "DNN Training"
+      },
+      {
+		"name": "dnn_library",
+        "type": "library",
+		"flavor": "python",
+        "description": "DNN Utilities"
+      }
+    ],
+"pipelines":[
+        {
+            "name": "dnn_training_pipeline",
+            "description": "DNN Training Pipeline",
+            "components": ["data_fetch", "dnn_data_prep", "dnn_train"],
+	    	"after_dependencies": {
+                "dnn_data_prep": ["data_fetch"],
+                "dnn_train": ["dnn_data_prep"]
+            }
+        }
+    ]
+}

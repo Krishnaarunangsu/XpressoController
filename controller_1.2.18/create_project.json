@@ -1,0 +1,12 @@
+{
+    "name": "pipeline_experiments_demo_1",
+	"projectDescription": "Demo of Pipeline Experiments",
+	"owner": {
+		"uid": "hardik11"
+	},
+	"developers": ["hardik11",
+"hardik12"],
+	"environments": ["DEV"],
+	"persistent_volume_size": 6,
+        "components": []
+}

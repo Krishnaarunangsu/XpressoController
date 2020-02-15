@@ -1,0 +1,15 @@
+{
+    "name": "pipeline_experiments_demo_1",
+  "environments": ["DEV"],
+"pipelines":[
+        {
+            "name": "dnn_training_pipeline",
+            "description": "DNN Training Pipeline",
+            "components": ["data_fetch", "dnn_data_prep", "dnn_train"],
+	    	"after_dependencies": {
+                "dnn_data_prep": ["data_fetch"],
+                "dnn_train": ["dnn_data_prep"]
+            }
+        }
+    ]
+}

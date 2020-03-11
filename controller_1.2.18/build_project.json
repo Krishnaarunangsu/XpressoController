@@ -1,11 +1,11 @@
 { 
-	"name": "pipeline_experiments_demo_1",
+	"name": "components_demo_12",
   "components":{
-            "dnn_data_prep": {
+            "C1":{
                 "branch": "master",
                 "description": "trial version - 1"
             },
-            "dnn_train": {
+            "C2": {
                 "branch": "master",
                 "description": "trial version - 1"
             }

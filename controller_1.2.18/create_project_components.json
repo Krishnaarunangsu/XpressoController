@@ -1,7 +1,13 @@
 {
-    "name": "pipeline_experiments_demo_1",
-    "components":[
-      {
+    "name": "components_demo_1",
+	"projectDescription": "Demo of Pipeline Experiments",
+	"owner": {
+		"uid": "hardik11"
+	},
+	"developers": ["hardik11",
+"hardik12"],
+	"persistent_volume_size": 6,
+	"components": [{
         "type": "job",
         "flavor": "python",
         "name": "C1",
@@ -12,7 +18,5 @@
 		"type": "job",
 		"flavor": "python",
         "description": "Data Preparation"
-      }
-    ],
-  "environments": ["DEV"]
+      }]
 }

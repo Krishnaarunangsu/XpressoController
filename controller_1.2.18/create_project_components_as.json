@@ -1,11 +1,11 @@
 {
-    "name": "components_demo_1",
+    "name": "components_demo_12",
 	"projectDescription": "Demo of Pipeline Experiments",
 	"owner": {
-		"uid": "hardik11"
+		"uid": "ASahu2"
 	},
-	"developers": ["hardik11",
-"hardik12"],
+	"developers": ["ASahu2",
+"ASahu3"],
 	"persistent_volume_size": 6,
 	"components": [{
         "type": "job",

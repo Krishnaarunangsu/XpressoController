@@ -1,0 +1,18 @@
+{
+  "name": "components_demo_12",
+  "target_environment": "DEV",
+  "components": {
+    "C1": {
+      "replicas": 2,
+      "build_version": 2,
+      "environment_parameters": [],
+      "type":"job"
+    },
+    "C2": {
+      "replicas": 2,
+      "build_version": 2,
+      "environment_parameters": [],
+      "type": "job"
+    }
+  }
+}

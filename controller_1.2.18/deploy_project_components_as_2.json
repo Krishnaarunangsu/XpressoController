@@ -1,14 +1,14 @@
 {
-  "name": "components_demo_12",
+  "name": "components_demo_15",
   "target_environment": "DEV",
   "components": {
-    "C1": {
+    "c1": {
       "replicas": 2,
       "build_version": 2,
       "environment_parameters": [],
       "type":"job"
     },
-    "C2": {
+    "c2": {
       "replicas": 2,
       "build_version": 2,
       "environment_parameters": [],

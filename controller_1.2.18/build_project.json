@@ -1,11 +1,11 @@
 { 
-	"name": "components_demo_12",
+	"name": "components_demo_15",
   "components":{
-            "C1":{
+            "c1":{
                 "branch": "master",
                 "description": "trial version - 1"
             },
-            "C2": {
+            "c2": {
                 "branch": "master",
                 "description": "trial version - 1"
             }
